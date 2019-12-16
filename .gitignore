@@ -37,3 +37,12 @@ Debug/Obj/Time.xcl
 settings/Final Project.Debug.cspy.bat
 settings/Final Project.Debug.cspy.ps1
 settings/Final Project.Debug.general.xcl
+Debug/Obj/.ninja_log
+Debug/Obj/Final Project.pbd
+Debug/Obj/Final Project.pbd.browse
+Debug/Obj/keypad.pbi.dep
+Debug/Obj/LEDMATRIX.pbi.dep
+Debug/Obj/main.pbi
+Debug/Obj/Time.pbi.dep
+Final Project.dep
+settings/LEDMATRIX.wsdt
