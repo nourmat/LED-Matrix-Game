@@ -42,6 +42,8 @@ int main()
      //assignBlockArray(subshape1,shape2,0,0);
     //writeShape(shape2);
      //writeAllExceptCol(2);
+     
+     //RPC() this should be the only function written here
      playDiagonal();
    }
   return 0;

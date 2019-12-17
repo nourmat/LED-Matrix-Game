@@ -1,14 +1,14 @@
-"C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\Time.c"
+"D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Time.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\Debug\Obj\Time.pbi.dep
+D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\Time.pbi.dep
 -o
 Time.pbi
 -I
-C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)
+D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
