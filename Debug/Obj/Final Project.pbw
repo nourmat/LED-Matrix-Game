@@ -93240,7 +93240,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@2362@F@assignBlockArray@i",
+    "ID": "c:LEDMATRIX.c@2360@F@assignBlockArray@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -93254,7 +93254,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@2408@F@assignBlockArray@j",
+    "ID": "c:LEDMATRIX.c@2406@F@assignBlockArray@j",
     "What": "Variable",
     "defdec": "Def",
     "display": "j",
@@ -93282,7 +93282,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@2740@F@assignNonBlockArray@i",
+    "ID": "c:LEDMATRIX.c@2738@F@assignNonBlockArray@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -93296,7 +93296,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@2808@F@assignNonBlockArray@j",
+    "ID": "c:LEDMATRIX.c@2806@F@assignNonBlockArray@j",
     "What": "Variable",
     "defdec": "Def",
     "display": "j",
@@ -93324,7 +93324,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3108@F@writeAllExceptCol@i",
+    "ID": "c:LEDMATRIX.c@3106@F@writeAllExceptCol@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -93338,7 +93338,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3158@F@writeAllExceptCol@i",
+    "ID": "c:LEDMATRIX.c@3156@F@writeAllExceptCol@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -93366,7 +93366,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3318@F@playDiagonal@iter",
+    "ID": "c:LEDMATRIX.c@3316@F@playDiagonal@iter",
     "What": "Variable",
     "defdec": "Def",
     "display": "iter",
@@ -93380,7 +93380,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3368@F@playDiagonal@k",
+    "ID": "c:LEDMATRIX.c@3366@F@playDiagonal@k",
     "What": "Variable",
     "defdec": "Def",
     "display": "k",
@@ -93394,7 +93394,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3469@F@playDiagonal@i",
+    "ID": "c:LEDMATRIX.c@3467@F@playDiagonal@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -93408,7 +93408,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3536@F@playDiagonal@j",
+    "ID": "c:LEDMATRIX.c@3534@F@playDiagonal@j",
     "What": "Variable",
     "defdec": "Def",
     "display": "j",
@@ -93436,7 +93436,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3891@F@writeShape@i",
+    "ID": "c:LEDMATRIX.c@3889@F@writeShape@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
@@ -93450,7 +93450,7 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3950@F@writeShape@j",
+    "ID": "c:LEDMATRIX.c@3948@F@writeShape@j",
     "What": "Variable",
     "defdec": "Def",
     "display": "j",
@@ -93968,16 +93968,58 @@
     "scope": null
   },
   {
-    "ID": "c:@F@mergeArray",
+    "ID": "c:@F@assignNonBlockArray",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int mergeArray(int (*)[8], int (*)[16], int, int)",
+    "display": "int assignNonBlockArray(int (*)[8], int (*)[16], int, int)",
     "location": {
       "column": "5",
       "line": "46",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
-    "name": "mergeArray",
+    "name": "assignNonBlockArray",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@assignNonBlockArray",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int assignNonBlockArray(int (*)[8], int (*)[16], int, int)",
+    "location": {
+      "column": "5",
+      "line": "46",
+      "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
+    },
+    "name": "assignNonBlockArray",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@assignBlockArray",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int assignBlockArray(int (*)[8], int (*)[16], int, int)",
+    "location": {
+      "column": "5",
+      "line": "47",
+      "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
+    },
+    "name": "assignBlockArray",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@assignBlockArray",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int assignBlockArray(int (*)[8], int (*)[16], int, int)",
+    "location": {
+      "column": "5",
+      "line": "47",
+      "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
+    },
+    "name": "assignBlockArray",
     "origin": "user_include",
     "scope": null
   },
@@ -93988,7 +94030,7 @@
     "display": "void playDiagonal(void)",
     "location": {
       "column": "6",
-      "line": "47",
+      "line": "48",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "playDiagonal",
@@ -94002,7 +94044,7 @@
     "display": "void playDiagonal(void)",
     "location": {
       "column": "6",
-      "line": "47",
+      "line": "48",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "playDiagonal",
@@ -94016,7 +94058,7 @@
     "display": "void writeAllExceptCol(int)",
     "location": {
       "column": "6",
-      "line": "48",
+      "line": "49",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "writeAllExceptCol",
@@ -94030,7 +94072,7 @@
     "display": "void writeAllExceptCol(int)",
     "location": {
       "column": "6",
-      "line": "48",
+      "line": "49",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "writeAllExceptCol",
@@ -94044,7 +94086,7 @@
     "display": "void resetRows(void)",
     "location": {
       "column": "6",
-      "line": "50",
+      "line": "51",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "resetRows",
@@ -94058,7 +94100,7 @@
     "display": "void resetRows(void)",
     "location": {
       "column": "6",
-      "line": "50",
+      "line": "51",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "resetRows",
@@ -94072,7 +94114,7 @@
     "display": "void resetCols(void)",
     "location": {
       "column": "6",
-      "line": "51",
+      "line": "52",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "resetCols",
@@ -94086,7 +94128,7 @@
     "display": "void resetCols(void)",
     "location": {
       "column": "6",
-      "line": "51",
+      "line": "52",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "resetCols",
@@ -94100,7 +94142,7 @@
     "display": "void fireRows(void)",
     "location": {
       "column": "6",
-      "line": "52",
+      "line": "53",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "fireRows",
@@ -94114,7 +94156,7 @@
     "display": "void fireRows(void)",
     "location": {
       "column": "6",
-      "line": "52",
+      "line": "53",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "fireRows",
@@ -94128,7 +94170,7 @@
     "display": "void fireCols(void)",
     "location": {
       "column": "6",
-      "line": "53",
+      "line": "54",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "fireCols",
@@ -94142,7 +94184,7 @@
     "display": "void fireCols(void)",
     "location": {
       "column": "6",
-      "line": "53",
+      "line": "54",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "fireCols",
@@ -94156,7 +94198,7 @@
     "display": "void shiftRows(int)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "56",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "shiftRows",
@@ -94170,7 +94212,7 @@
     "display": "void shiftRows(int)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "56",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "shiftRows",
@@ -94184,7 +94226,7 @@
     "display": "void shiftCols(int)",
     "location": {
       "column": "6",
-      "line": "56",
+      "line": "57",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "shiftCols",
@@ -94198,7 +94240,7 @@
     "display": "void shiftCols(int)",
     "location": {
       "column": "6",
-      "line": "56",
+      "line": "57",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "shiftCols",
@@ -94212,7 +94254,7 @@
     "display": "void outputRows(void)",
     "location": {
       "column": "6",
-      "line": "58",
+      "line": "59",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "outputRows",
@@ -94226,7 +94268,7 @@
     "display": "void outputRows(void)",
     "location": {
       "column": "6",
-      "line": "58",
+      "line": "59",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "outputRows",
@@ -94240,7 +94282,7 @@
     "display": "void outputCols(void)",
     "location": {
       "column": "6",
-      "line": "59",
+      "line": "60",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "outputCols",
@@ -94254,7 +94296,7 @@
     "display": "void outputCols(void)",
     "location": {
       "column": "6",
-      "line": "59",
+      "line": "60",
       "path": "C:\\Users\\Nour E-Din\\Desktop\\Embedded projects\\LED Matrix (Rock Papper Scisser)\\LEDMATRIX.h"
     },
     "name": "outputCols",

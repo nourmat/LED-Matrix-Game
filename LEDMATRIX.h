@@ -43,7 +43,8 @@
 void LED_init(void);
 void digitalWrite(volatile unsigned long*,int,int);
 void writeShape(int[ROWSIZE][COLSIZE]);
-int mergeArray(int [subROWSIZE][subCOLSIZE], int [ROWSIZE][COLSIZE],int,int);
+int assignNonBlockArray(int [subROWSIZE][subCOLSIZE], int [ROWSIZE][COLSIZE],int,int);
+int assignBlockArray(int [subROWSIZE][subCOLSIZE], int [ROWSIZE][COLSIZE],int,int);
 void playDiagonal(void);
 void writeAllExceptCol(int);
 

@@ -72,9 +72,9 @@ void outputRows() {
 void outputCols() {
   //pusle
   digitalWrite(&LED_COL_DATA, LatchCol, HIGH);
-  delayMicroseconds(LATCHPULSEDELAY );
+  delayMicroseconds(LATCHPULSEDELAY);
   digitalWrite(&LED_COL_DATA, LatchCol, LOW);
-  delayMicroseconds(LATCHPULSEDELAY );
+  delayMicroseconds(LATCHPULSEDELAY);
 }
 
 //TAKES MASK

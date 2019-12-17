@@ -37,7 +37,9 @@ int main()
    LED_init();
    
    while(1){
-     //mergeArray(subshape1,shape2,0,0);
+     //resetRows();
+     //resetCols();
+     //assignBlockArray(subshape1,shape2,0,0);
     //writeShape(shape2);
      //writeAllExceptCol(2);
      playDiagonal();
