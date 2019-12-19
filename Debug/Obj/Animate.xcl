@@ -1,12 +1,12 @@
-"C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\LEDMATRIX.c"
+"C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\Animate.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\Debug\Obj\LEDMATRIX.pbi.dep
+C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\Debug\Obj\Animate.pbi.dep
 -o
-LEDMATRIX.pbi
+Animate.pbi
 -I
 C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED
 -I

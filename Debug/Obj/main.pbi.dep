@@ -1,4 +1,4 @@
 main.pbi: \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\tm4c123gh6pm.h \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\LEDMATRIX.h \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\main.c
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED\main.c \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/LEDMATRIX.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/tm4c123gh6pm.h

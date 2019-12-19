@@ -1,2 +1,2 @@
 void randomFlash();
-void flash;
+void flash();
