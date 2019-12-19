@@ -1,3 +1,5 @@
+#ifndef Animate
+#define Animate
 void randomFlash();
 void flash();
 
@@ -299,3 +301,5 @@ const int RandomShape9[8][16] =
 		  {0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0},
 		  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 		};
+
+#endif
