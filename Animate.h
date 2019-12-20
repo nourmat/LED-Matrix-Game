@@ -2,6 +2,7 @@
 #define Animate
 void randomFlash();
 void flash();
+void cpyArr(int src[8][16], int dst[8][16]);
 
 //These constants are arrays used to make all animations
 const int P1Rwin1[8][16] =
