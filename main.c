@@ -36,6 +36,7 @@ int main()
 {
   screen = getLED();
   LED_init();
+  systickInit(SysTick_Handler);
    
    while(1){
      //mergeArray(subshape1,shape2,0,0);
@@ -43,7 +44,9 @@ int main()
      //writeAllExceptCol(2);
      
      //RPC() this should be the only function written here
-     playDiagonal();
+     //TODO FOR testing purposes, remove to integrate project
+     break;
+     //RPC()
    }
   return 0;
 }
