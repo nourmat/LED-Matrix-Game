@@ -4,12 +4,19 @@
 #include "Time.h"
 #include "stdbool.h"
 #include "stdio.h"
+#include <stdlib.h>
 
 //IMPORTANT: all drawing should occur by changing the value of the int screen[8][16] matrix in main which will be moved into LEDMATRIX after debugging
 
+void cpyArr(int src[8][16], int dst[8][16])
+{
+	for(int i = 0 ; i < 8 ; i++)
+		for(int j = 0 ; j < 16 ; j++)
+			dst[i][j] = src[i][j];
+}
 
 void flash(){
-    int *shape = getLED(); //TODO A function that returns the pointer to the 2D array
+    int **shape = getLED(); //TODO A function that returns the pointer to the 2D array
 	int win = getWinner(); //TODO A function that returns the number of the winning player
 	bool player1 = false, player2 = false; 
 	char player1Shape = getP1Shape(), player2Shape = getP2Shape(); //TODO A function that returns the shape chosen by each player 
@@ -27,23 +34,23 @@ void flash(){
 			if(player1Shape == 'R')
 			{
 				if(cnt == 0)
-					shape = P1Rwin1;
+					cpyArr(P1Rwin1,shape);
 				else
-					shape = P1Rwin2;
+					cpyArr(P1Rwin2,shape);
 			}
 			else if(player1Shape == 'P')
 			{
 				if(cnt==0)
-					shape = P1Pwin1;
+					cpyArr(P1Pwin1,shape);
 				else
-					shape = P1Pwin2;
+					cpyArr(P1Pwin2,shape);
 			}
 			else if(player1Shape == 'S')
 			{
 				if(cnt==0)
-					shape = P1Swin1;
+					cpyArr(P1Swin1,shape);
 				else
-					shape = P1Swin2;
+					cpyArr(P1Swin2,shape);
 			}
 		}
 		else if(player2)
@@ -51,23 +58,23 @@ void flash(){
 			if(player2Shape == 'R')
 			{
 				if(cnt == 0)
-					shape = P2RWin1;
+					cpyArr(P2RWin1,shape);
 				else
-					shape = P2RWin2;
+					cpyArr(P2RWin2,shape);
 			}
 			else if(player2Shape == 'P')
 			{
 				if(cnt==0)
-					shape = P2PWin1;
+					cpyArr(P2PWin1,shape);
 				else
-					shape = P2PWin2;
+					cpyArr(P2PWin2,shape);
 			}
 			else if(player2Shape == 'S')
 			{
 				if(cnt==0)
-					shape = P2SWin1;
+					cpyArr(P2SWin1,shape);
 				else
-					shape = P2SWin2;
+					cpyArr(P2SWin2,shape);
 			}
 		}
 		else
@@ -97,7 +104,7 @@ void flash(){
 		delay_milli(500);
 		if(readButtons())
 			break;
-		cnt^1;
+		cnt^=1;
 	}
 }
 
@@ -106,36 +113,36 @@ void randomFlash(){
   int c;
   while(1)
   {
-    int *shape = getLED(); //TODO A function that returns the pointer to the 2D array
+    int **shape = getLED(); //TODO A function that returns the pointer to the 2D array
 	c = rand() % 9;
 	switch(c)
 	{
 		case 0:
-		 shape = RandomShape1;
+		 cpyArr(RandomShape1,shape);
 		break;
 		case 1:
-		 shape = RandomShape2;
+		 cpyArr(RandomShape2,shape);
 		break;
 		case 2:
-		 shape = RandomShape3;
+		 cpyArr(RandomShape3,shape);
 		break;
 		case 3:
-		 shape = RandomShape4;
+		 cpyArr(RandomShape4,shape);
 		break;
 		case 4:
-		 shape = RandomShape5;
+		 cpyArr(RandomShape5,shape);
 		break;
 		case 5:
-		 shape = RandomShape6;
+		 cpyArr(RandomShape6,shape);
 		break;
 		case 6:
-		 shape = RandomShape7;
+		 cpyArr(RandomShape7,shape);
 		break;
 		case 7:
-		 shape = RandomShape8;
+		 cpyArr(RandomShape8,shape);
 		break;
 		case 8:
-		 shape = RandomShape9;
+		 cpyArr(RandomShape9,shape);
 	}
 	delay_milli(500);
     //draw any 2 random shapes
