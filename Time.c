@@ -1,4 +1,5 @@
 #include "Time.h"
+#include "driverlib/systick.h"
 
 void timeinit(void){         
        NVIC_ST_CTRL_R=0;                               
@@ -58,4 +59,12 @@ void delay(int dur){ // delay milli
     
     while ((TIMER0_RIS_R & 0x1) == 0) ;  /* STEP 8: wait for TimerA timeout flag to set*/
           TIMER0_ICR_R = 0x1;    /*         clear the TimerA timeout flag*/
+}
+
+//sets upsystick for interrupts
+void systickInit(void(*fun)(void)){
+  SysTickPeriodSet(480000);
+  SysTickIntRegister(fun);
+  SysTickIntEnable();
+  SysTickEnable();
 }
