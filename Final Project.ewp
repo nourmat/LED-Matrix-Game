@@ -2104,6 +2104,12 @@
         </settings>
     </configuration>
     <file>
+        <name>$PROJ_DIR$\Animate.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\Animate.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\keypad.c</name>
     </file>
     <file>

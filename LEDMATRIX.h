@@ -59,5 +59,6 @@ void shiftCols(int);
 void outputRows(void);
 void outputCols(void);
 
+int** getLED();
 
 #endif

@@ -1,18 +1,30 @@
+<<<<<<< HEAD
 "C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\main.c"
+=======
+"C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\main.c"
+>>>>>>> e3fd1a6298180c33c79813a7510765c5a142667d
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
+<<<<<<< HEAD
 C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\Debug\Obj\main.pbi.dep
 -o
 main.pbi
 -I
 C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)
+=======
+C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\Debug\Obj\main.pbi.dep
+-o
+main.pbi
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
+C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED
+>>>>>>> e3fd1a6298180c33c79813a7510765c5a142667d
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc\c
+E:\IAR Systems\Embedded Workbench 8.3\arm\inc
+-I
+E:\IAR Systems\Embedded Workbench 8.3\arm\inc\c
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -304,8 +316,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc\c
 -D__EDG_FLOAT80_ENABLING_POSSIBLE=0
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -D__EDG_INT128_EXTENSIONS_ALLOWED=0
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="E:\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_STRING="E:\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.40.1.212/W32 for ARM"
 -D_VA_DEFINED=
 -D_VA_LIST=struct __va_list
