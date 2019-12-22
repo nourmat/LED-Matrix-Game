@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\settings\Final Project.Debug.general.xcl" --backend -f "D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\settings\Final Project.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\settings\Final Project.Debug.general.xcl" --backend -f "C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\settings\Final Project.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\settings\Final Project.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\settings\Final Project.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\settings\Final Project.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\settings\Final Project.Debug.driver.xcl" 
 }

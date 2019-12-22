@@ -5,58 +5,67 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\keypad.h</file>
+            <file>$PROJ_DIR$\keypad.c</file>
             <file>$PROJ_DIR$\LEDMATRIX.h</file>
-            <file>$PROJ_DIR$\LEDMATRIX.c</file>
             <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\keypad.h</file>
             <file>$PROJ_DIR$\Time.c</file>
             <file>$PROJ_DIR$\Time.h</file>
             <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\Final Project.out</file>
-            <file>$PROJ_DIR$\keypad.c</file>
             <file>$PROJ_DIR$\Debug\Obj\Time.o</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\Functions.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\Functions.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\Final Project.out</file>
             <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\keypad.xcl</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\Time.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\Final Project.pbd</file>
-            <file>$PROJ_DIR$\Debug\Obj\LEDMATRIX.xcl</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\LEDMATRIX.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Functions.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\List\Final Project.map</file>
             <file>$PROJ_DIR$\Functions.c</file>
             <file>$PROJ_DIR$\Debug\Obj\LEDMATRIX.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\List\Final Project.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\keypad.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\Time.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\keypad.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\LEDMATRIX.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LEDMATRIX.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\Final Project.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\keypad.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\keypad.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\Time.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\keypad.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Time.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\LEDMATRIX.o</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\LEDMATRIX.c</name>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 14 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\keypad.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 29</file>
+                    <file> 28</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 18</file>
+                    <file> 26</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 21</file>
+                    <file> 20</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 1 6</file>
+                    <file> 3 6</file>
                 </tool>
             </inputs>
         </file>
@@ -65,7 +74,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 28</file>
+                    <file> 17</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -73,7 +82,7 @@
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 13</file>
+                    <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
@@ -88,15 +97,15 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 9</file>
+                    <file> 7</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 16</file>
+                    <file> 27</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 25</file>
+                    <file> 29</file>
                 </tool>
             </outputs>
             <inputs>
@@ -111,58 +120,49 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 22</file>
+                    <file> 14</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 30 23 29 28 9 10 19 27 15</file>
+                    <file> 23 28 30 17 7 13 21 22 25</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\keypad.c</name>
+            <name>$PROJ_DIR$\LEDMATRIX.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 23</file>
+                    <file> 30</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 14</file>
+                    <file> 18</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 26</file>
+                    <file> 16</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 0 6</file>
+                    <file> 1 6</file>
                 </tool>
             </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 7 22</file>
-                </tool>
-            </outputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Functions.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 12</file>
+                    <file> 8</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11</file>
+                    <file> 12</file>
                 </tool>
             </outputs>
         </file>
