@@ -332,28 +332,28 @@ void flash(){
 			if(player1Shape == 'R')
 			{
 				if(cnt == 0)
-					writeShape(P1Rwin1);
+					cpyArrToScreen(P1Rwin1);
 					//cpyarr(P1Rwin1,shape);
 				else
-					writeShape(P1Rwin2);
+					cpyArrToScreen(P1Rwin2);
 					//cpyarr(P1Rwin2,shape);
 			}
 			else if(player1Shape == 'P')
 			{
 				if(cnt==0)
-					writeShape(P1Pwin1);
+					cpyArrToScreen(P1Pwin1);
 					//cpyarr(P1Pwin1,shape);
 				else
-					writeShape(P1Pwin2);
+					cpyArrToScreen(P1Pwin2);
 					//cpyarr(P1Pwin2,shape);
 			}
 			else if(player1Shape == 'S')
 			{
 				if(cnt==0)
-					writeShape(P1Swin1);
+					cpyArrToScreen(P1Swin1);
 					//cpyarr(P1Swin1,shape);
 				else
-					writeShape(P1Swin2);
+					cpyArrToScreen(P1Swin2);
 					//cpyarr(P1Swin2,shape);
 			}
 		}
@@ -362,27 +362,27 @@ void flash(){
 			if(player2Shape == 'R')
 			{
 				if(cnt == 0)
-					writeShape(P2RWin1);
+					cpyArrToScreen(P2RWin1);
 					//cpyarr(P2RWin1,shape);
 				else
-					writeShape(P2RWin2);
+					cpyArrToScreen(P2RWin2);
 					//cpyarr(P2RWin2,shape);
 			}
 			else if(player2Shape == 'P')
 			{
 				if(cnt==0)
-					writeShape(P2PWin1);
+					cpyArrToScreen(P2PWin1);
 					//cpyarr(P2PWin1,shape);
 				else
-					writeShape(P2PWin2);
+					cpyArrToScreen(P2PWin2);
 			}
 			else if(player2Shape == 'S')
 			{
 				if(cnt==0)
-					writeShape(P2SWin1);
+					cpyArrToScreen(P2SWin1);
 					//cpyarr(P2SWin1,shape);
 				else
-					writeShape(P2SWin2);
+					cpyArrToScreen(P2SWin2);
 					//cpyarr(P2SWin2,shape);
 			}
 		}
@@ -391,23 +391,23 @@ void flash(){
 			if(player1Shape == 'R')
 			{
 				if(cnt == 0)
-					writeShape(RTie1);
+					cpyArrToScreen(RTie1);
 				else
-					writeShape(RTie2);
+					cpyArrToScreen(RTie2);
 			}
 			else if(player1Shape == 'P')
 			{
 				if(cnt==0)
-					writeShape(PTie1);
+					cpyArrToScreen(PTie1);
 				else
-					writeShape(PTie2);
+					cpyArrToScreen(PTie2);
 			}
 			else if(player1Shape == 'S')
 			{
 				if(cnt==0)
-					writeShape(STie1);
+					cpyArrToScreen(STie1);
 				else
-					writeShape(STie2);
+					cpyArrToScreen(STie2);
 			}
 		}
 		delay_milli(500);
@@ -422,50 +422,50 @@ void randomFlash(){
   int c;
   while(1)
   {
-    int **shape = getLED(); //TODO A function that returns the pointer to the 2D array
 	c = rand() % 9;
 	switch(c)
 	{
 		case 0:
-		 writeShape(RandomShape1);
+		 cpyArrToScreen(RandomShape1);
 		 //cpyarr(RandomShape1,shape);
 		break;
 		case 1:
-			writeShape(RandomShape1);
+			cpyArrToScreen(RandomShape1);
 		 //cpyarr(RandomShape2,shape);
 		break;
 		case 2:
-			writeShape(RandomShape2);
+			cpyArrToScreen(RandomShape2);
 		 //cpyarr(RandomShape3,shape);
 		break;
 		case 3:
-			writeShape(RandomShape3);
+			cpyArrToScreen(RandomShape3);
 		 //cpyarr(RandomShape4,shape);
 		break;
 		case 4:
-			writeShape(RandomShape4);
+			cpyArrToScreen(RandomShape4);
 		 //cpyarr(RandomShape5,shape);
 		break;
 		case 5:
-			writeShape(RandomShape5);
+			cpyArrToScreen(RandomShape5);
 		 //cpyarr(RandomShape6,shape);
 		break;
 		case 6:
-			writeShape(RandomShape6);
+			cpyArrToScreen(RandomShape6);
 		 //cpyarr(RandomShape7,shape);
 		break;
 		case 7:
-			writeShape(RandomShape7);
+			cpyArrToScreen(RandomShape7);
 		 //cpyarr(RandomShape8,shape);
 		break;
 		case 8:
-			writeShape(RandomShape8);
+			cpyArrToScreen(RandomShape8);
 		 //cpyarr(RandomShape9,shape);
 	}
 	delay_milli(500);
     //draw any 2 random shapes
     //wait 0.5 seconds
     if(readButtons()){
+      volatile int k = -1;
       break;
     }
   

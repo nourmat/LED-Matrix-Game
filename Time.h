@@ -10,4 +10,6 @@ void delay_milli(int);
 void delayMicroseconds(int); 
 void Timer0_Init(void);
 
+void systickInit(int);
+
 #endif

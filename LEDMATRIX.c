@@ -1,4 +1,5 @@
 #include "LEDMATRIX.h"
+#include "Time.h"
 int screen[ROWSIZE][COLSIZE] =
 {
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},

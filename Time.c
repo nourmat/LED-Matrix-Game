@@ -17,13 +17,13 @@ void delaySec()
 }
 
 
-void delay_milli(int dur){
+/*void delay_milli(int dur){
   NVIC_ST_RELOAD_R = 0x3E7F;                  //reload value starts from 15,999
   for (int i = 0; i < dur ;i ++){
     //NVIC_ST_CURRENT_R=0;
     while ((NVIC_ST_CTRL_R & 0x10000) == 0);
   }
-}
+}*/
 
 
 /*void delayMicroseconds(int dur){
@@ -52,7 +52,7 @@ void delayMicroseconds(int dur){
           TIMER0_ICR_R = 0x1;    /*         clear the TimerA timeout flag*/
 }
 
-void delay(int dur){ // delay milli
+void delay_milli(int dur){ // delay milli
     TIMER0_TAILR_R = 16000 * dur - 1;       /* STEP 5: Timer A interval load value register */
                                                 /* STEP 6: Interrupt is not needed in this example */
     TIMER0_CTL_R |= 0x01;                       /* STEP 7: enable Timer A after initialization*/  

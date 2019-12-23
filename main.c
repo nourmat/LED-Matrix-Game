@@ -1,6 +1,7 @@
 #include "LEDMATRIX.h"
 #include "IO.h"
 #include "Time.h"
+#include "Animate.h"
 #include "RPS.h"
 //int** screen;//screen is the new name for shape2
 
@@ -52,7 +53,8 @@ int main()
      //RPC() this should be the only function written here
      //TODO FOR testing purposes, remove to integrate project
      
-     RPC();
+     //RPC();
+     randomFlash();
    }
   return 0;
 }
