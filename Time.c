@@ -1,5 +1,5 @@
 #include "Time.h"
-#include "driverlib/systick.h"
+#include "systick.h"
 
 void timeinit(void){         
        NVIC_ST_CTRL_R=0;                               

@@ -25,11 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-<<<<<<< HEAD
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\settings\Final Project.Debug.general.xcl" --backend -f "C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\settings\Final Project.Debug.driver.xcl" 
-=======
-"E:\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\settings\Final Project.Debug.general.xcl" --backend -f "C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\settings\Final Project.Debug.driver.xcl" 
->>>>>>> e3fd1a6298180c33c79813a7510765c5a142667d
 
 @echo off 
 goto end 
@@ -38,11 +34,7 @@ goto end
 
 @echo on 
 
-<<<<<<< HEAD
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\settings\Final Project.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\settings\Final Project.Debug.driver.xcl" 
-=======
-"E:\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\settings\Final Project.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\settings\Final Project.Debug.driver.xcl" 
->>>>>>> e3fd1a6298180c33c79813a7510765c5a142667d
 
 @echo off 
 :end

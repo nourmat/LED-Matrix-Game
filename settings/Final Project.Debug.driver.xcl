@@ -6,7 +6,7 @@
 
 "-p" 
 
-"E:\IAR Systems\Embedded Workbench 8.3\arm\CONFIG\debugger\TexasInstruments\TM4C123GH6PM.ddf" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\CONFIG\debugger\TexasInstruments\TM4C123GH6PM.ddf" 
 
 "--semihosting" 
 

@@ -1,5 +1,5 @@
 #include "LEDMATRIX.h"
-int screen[8][16] =
+int screen[ROWSIZE][COLSIZE] =
 {
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
@@ -11,7 +11,7 @@ int screen[8][16] =
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 };
 
-int** getLED(){return screen;}
+//int getLED(){return screen;}
 
 void LED_init() {
   SYSCTL_RCGCGPIO_R |= LED_COL_CLOCK; //clock
@@ -171,4 +171,15 @@ void writeShape(int shape[ROWSIZE][COLSIZE]) {
     delayMicroseconds(DELAYTIME);
     shiftRows(LOW);
   }
+}
+
+void refresh(){
+  writeShape(screen);
+}
+
+void cpyArrToScreen(int src[ROWSIZE][COLSIZE])
+{
+	for(int i = 0 ; i < ROWSIZE ; i++)
+		for(int j = 0 ; j < COLSIZE; j++)
+			screen[i][j] = src[i][j];
 }

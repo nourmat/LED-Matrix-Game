@@ -1,5 +1,6 @@
 #include "LEDMATRIX.h"
-int** screen;//screen is the new name for shape2
+//int** screen;//screen is the new name for shape2
+
 // int shape2[8][16] =
 // {
 //   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
@@ -32,9 +33,10 @@ int** screen;//screen is the new name for shape2
 //   {0, 1, 0, 0, 0, 0, 1, 0},
 //   {1, 0, 0, 0, 0, 0, 0, 1}};
 
+void SysTick_Handler();
+
 int main()
 {
-  screen = getLED();
   LED_init();
   systickInit(SysTick_Handler);
    
@@ -55,7 +57,5 @@ int main()
 
 
 void SysTick_Handler(){
-
-  writeShape(screen);
-
+  refresh();
 }

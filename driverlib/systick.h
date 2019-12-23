@@ -39,7 +39,7 @@
 
 #ifndef __DRIVERLIB_SYSTICK_H__
 #define __DRIVERLIB_SYSTICK_H__
-
+#define uint32_t unsigned int
 //*****************************************************************************
 //
 // If building with a C++ compiler, make all of the definitions in this header

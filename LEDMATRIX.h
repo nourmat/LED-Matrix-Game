@@ -43,6 +43,7 @@
 void LED_init(void);
 void digitalWrite(volatile unsigned long*,int,int);
 void writeShape(int[ROWSIZE][COLSIZE]);
+void refresh(void);
 int assignNonBlockArray(int [subROWSIZE][subCOLSIZE], int [ROWSIZE][COLSIZE],int,int);
 int assignBlockArray(int [subROWSIZE][subCOLSIZE], int [ROWSIZE][COLSIZE],int,int);
 void playDiagonal(void);
@@ -60,5 +61,6 @@ void outputRows(void);
 void outputCols(void);
 
 int** getLED();
+void cpyArrToScreen(int [ROWSIZE][COLSIZE]);
 
 #endif

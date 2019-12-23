@@ -2370,12 +2370,6 @@
         </settings>
     </configuration>
     <file>
-        <name>$PROJ_DIR$\Animate.c</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\Animate.h</name>
-    </file>
-    <file>
         <name>$PROJ_DIR$\keypad.c</name>
     </file>
     <file>
@@ -2389,6 +2383,12 @@
     </file>
     <file>
         <name>$PROJ_DIR$\main.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\systick.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\systick.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\Time.c</name>
