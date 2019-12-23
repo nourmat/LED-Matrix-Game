@@ -1,4 +1,7 @@
 #include "LEDMATRIX.h"
+#include "IO.h"
+#include "Time.h"
+#include "RPS.h"
 //int** screen;//screen is the new name for shape2
 
 // int shape2[8][16] =
@@ -33,13 +36,12 @@
 //   {0, 1, 0, 0, 0, 0, 1, 0},
 //   {1, 0, 0, 0, 0, 0, 0, 1}};
 
-void SysTick_Handler();
 
 int main()
 {
   LED_init();
-  systickInit(SysTick_Handler);
-   
+  systickInit(90000);
+  init_port_e();
    while(1){
      //resetRows();
      //resetCols();
@@ -49,8 +51,8 @@ int main()
      
      //RPC() this should be the only function written here
      //TODO FOR testing purposes, remove to integrate project
-     break;
-     //RPC()
+     
+     RPC();
    }
   return 0;
 }

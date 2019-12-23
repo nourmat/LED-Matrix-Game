@@ -1,14 +1,14 @@
-"C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\systick.c"
+"D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\RPS.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\Debug\Obj\systick.pbi.dep
+D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\RPS.pbi.dep
 -o
-systick.pbi
+RPS.pbi
 -I
-C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)
+D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I

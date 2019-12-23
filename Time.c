@@ -1,5 +1,5 @@
 #include "Time.h"
-#include "systick.h"
+//#include "driverlib/systick.h"
 
 void timeinit(void){         
        NVIC_ST_CTRL_R=0;                               
@@ -62,9 +62,19 @@ void delay(int dur){ // delay milli
 }
 
 //sets upsystick for interrupts
-void systickInit(void(*fun)(void)){
-  SysTickPeriodSet(480000);
+void systickInit(int period){
+  //NVIC_EN0_R |= ;
+  /*SysTickPeriodSet(480000);
   SysTickIntRegister(fun);
   SysTickIntEnable();
-  SysTickEnable();
+  SysTickEnable();*/
+  //long sr = StartCritical();
+  NVIC_ST_CTRL_R = 0;         // disable SysTick during setup
+  NVIC_ST_RELOAD_R = period-1;// reload value
+  NVIC_ST_CURRENT_R = 0;      // any write to current clears it
+  NVIC_SYS_PRI3_R = (NVIC_SYS_PRI3_R&0x00FFFFFF)|0x40000000; // priority 2
+                              // enable SysTick with core clock and interrupts
+  NVIC_ST_CTRL_R = 0x07;
+  __asm("CPSIE  I");           // Enable Interrupts Globally - Clears the I bit
+  //EndCritical(sr);
 }

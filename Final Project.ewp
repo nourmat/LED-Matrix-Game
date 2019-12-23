@@ -649,7 +649,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state></state>
+                    <state>Final Project.srec</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -816,7 +816,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    <state></state>
+                    <state>C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a</state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>
@@ -2104,10 +2104,16 @@
         </settings>
     </configuration>
     <file>
-        <name>$PROJ_DIR$\keypad.c</name>
+        <name>$PROJ_DIR$\Animate.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\keypad.h</name>
+        <name>$PROJ_DIR$\Animate.h</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\IO.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\IO.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\LEDMATRIX.c</name>
@@ -2119,10 +2125,10 @@
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\systick.c</name>
+        <name>$PROJ_DIR$\RPS.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\systick.h</name>
+        <name>$PROJ_DIR$\RPS.h</name>
     </file>
     <file>
         <name>$PROJ_DIR$\Time.c</name>

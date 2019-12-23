@@ -163,8 +163,8 @@ void writeShape(int shape[ROWSIZE][COLSIZE]) {
   for (int i = 0; i < ROWSIZE; i++) {
     resetCols();
     for (int j = COLSIZE - 1; j >= 0; j--) {
-      shape[i][j] = shape[i][j]? 0 : 1;
-      shiftCols(shape[i][j]);
+      //shape[i][j] = shape[i][j]? 0 : 1;
+      shiftCols(shape[i][j] ^ 1);
     }
     outputCols();
     outputRows();

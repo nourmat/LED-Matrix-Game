@@ -20,14 +20,15 @@ rule browsedata
 
 
 #Build steps
-build keypad.pbi : index keypad.xcl
+build Animate.pbi : index Animate.xcl
+build IO.pbi : index IO.xcl
 build LEDMATRIX.pbi : index LEDMATRIX.xcl
 build main.pbi : index main.xcl
-build systick.pbi : index systick.xcl
+build RPS.pbi : index RPS.xcl
 build Time.pbi : index Time.xcl
-build Final$ Project_part0.pbi : link keypad.pbi LEDMATRIX.pbi
-build Final$ Project_part1.pbi : link main.pbi systick.pbi
-build Final$ Project_part2.pbi : link Time.pbi
+build Final$ Project_part0.pbi : link Animate.pbi IO.pbi
+build Final$ Project_part1.pbi : link LEDMATRIX.pbi main.pbi
+build Final$ Project_part2.pbi : link RPS.pbi Time.pbi
 build Final$ Project.pbd : link Final$ Project_part0.pbi Final$ Project_part1.pbi Final$ Project_part2.pbi
 build Final$ Project.pbw : browsedata Final$ Project.pbd
 
