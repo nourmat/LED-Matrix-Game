@@ -5,7 +5,7 @@
 
 void Timer0_Init(void);
 void delayMicroseconds(int);
-void delay(int);
+void delay_milli(int);
 
 void systickInit(int);
 

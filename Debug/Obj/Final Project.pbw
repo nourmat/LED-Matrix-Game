@@ -97452,13 +97452,27 @@
     "scope": null
   },
   {
+    "ID": "c:Animate.c@14262@F@flash@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "10",
+      "line": "329",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Animate.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@randomFlash",
     "What": "Function",
     "defdec": "Def",
     "display": "void randomFlash(void)",
     "location": {
       "column": "6",
-      "line": "420",
+      "line": "418",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Animate.c"
     },
     "name": "randomFlash",
@@ -97466,30 +97480,16 @@
     "scope": null
   },
   {
-    "ID": "c:Animate.c@15985@F@randomFlash@c",
+    "ID": "c:Animate.c@15972@F@randomFlash@c",
     "What": "Variable",
     "defdec": "Def",
     "display": "c",
     "location": {
       "column": "7",
-      "line": "422",
+      "line": "420",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Animate.c"
     },
     "name": "c",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:Animate.c@16945@F@randomFlash@k",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "k",
-    "location": {
-      "column": "20",
-      "line": "468",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Animate.c"
-    },
-    "name": "k",
     "origin": "project_file",
     "scope": null
   },
@@ -98196,174 +98196,6 @@
     "scope": null
   },
   {
-    "ID": "c:Time.h@22@macro@Time",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "Time",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "Time",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@timeinit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void timeinit(void)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "timeinit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@timeinit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void timeinit(void)",
-    "location": {
-      "column": "6",
-      "line": "6",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "timeinit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delaySec",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delaySec(void)",
-    "location": {
-      "column": "6",
-      "line": "8",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "delaySec",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delaySec",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delaySec(void)",
-    "location": {
-      "column": "6",
-      "line": "8",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "delaySec",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay_milli",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delay_milli(int)",
-    "location": {
-      "column": "6",
-      "line": "9",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "delay_milli",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay_milli",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delay_milli(int)",
-    "location": {
-      "column": "6",
-      "line": "9",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "delay_milli",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delayMicroseconds",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delayMicroseconds(int)",
-    "location": {
-      "column": "6",
-      "line": "10",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "delayMicroseconds",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delayMicroseconds",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delayMicroseconds(int)",
-    "location": {
-      "column": "6",
-      "line": "10",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "delayMicroseconds",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Timer0_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Timer0_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "11",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "Timer0_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@systickInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void systickInit(int)",
-    "location": {
-      "column": "6",
-      "line": "13",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "systickInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@systickInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void systickInit(int)",
-    "location": {
-      "column": "6",
-      "line": "13",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
-    },
-    "name": "systickInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:IO.h@20@macro@IO",
     "What": "MacroDef",
     "defdec": "Def",
@@ -98434,6 +98266,132 @@
     "scope": null
   },
   {
+    "ID": "c:Time.h@22@macro@Time",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "Time",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
+    },
+    "name": "Time",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Timer0_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "6",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
+    },
+    "name": "Timer0_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delayMicroseconds",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delayMicroseconds(int)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
+    },
+    "name": "delayMicroseconds",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delayMicroseconds",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delayMicroseconds(int)",
+    "location": {
+      "column": "6",
+      "line": "7",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
+    },
+    "name": "delayMicroseconds",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay_milli",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay_milli(int)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
+    },
+    "name": "delay_milli",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay_milli",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay_milli(int)",
+    "location": {
+      "column": "6",
+      "line": "8",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
+    },
+    "name": "delay_milli",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@systickInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void systickInit(int)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
+    },
+    "name": "systickInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@systickInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void systickInit(int)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.h"
+    },
+    "name": "systickInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Normal.h@105@macro@_DLIB_CONFIG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_CONFIG_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
+    },
+    "name": "_DLIB_CONFIG_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@init_port_e",
     "What": "Function",
     "defdec": "Def",
@@ -98462,20 +98420,6 @@
     "scope": null
   },
   {
-    "ID": "c:DLib_Config_Normal.h@105@macro@_DLIB_CONFIG_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_CONFIG_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\arm\\inc\\c\\DLib_Config_Normal.h"
-    },
-    "name": "_DLIB_CONFIG_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:@screen",
     "What": "Variable",
     "defdec": "Def",
@@ -98490,13 +98434,55 @@
     "scope": null
   },
   {
+    "ID": "c:@F@Timer1_init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer1_init(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "Timer1_init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delayMicroseconds1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void delayMicroseconds1(int)",
+    "location": {
+      "column": "6",
+      "line": "25",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "delayMicroseconds1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void delay1(int)",
+    "location": {
+      "column": "6",
+      "line": "34",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "delay1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@LED_init",
     "What": "Function",
     "defdec": "Def",
     "display": "void LED_init(void)",
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "46",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "LED_init",
@@ -98510,7 +98496,7 @@
     "display": "void resetRows(void)",
     "location": {
       "column": "6",
-      "line": "34",
+      "line": "65",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "resetRows",
@@ -98518,13 +98504,13 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@1115@F@resetRows@i",
+    "ID": "c:LEDMATRIX.c@2871@F@resetRows@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "35",
+      "line": "66",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "i",
@@ -98538,7 +98524,7 @@
     "display": "void fireRows(void)",
     "location": {
       "column": "6",
-      "line": "39",
+      "line": "70",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "fireRows",
@@ -98546,13 +98532,13 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@1198@F@fireRows@i",
+    "ID": "c:LEDMATRIX.c@2954@F@fireRows@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "40",
+      "line": "71",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "i",
@@ -98566,7 +98552,7 @@
     "display": "void resetCols(void)",
     "location": {
       "column": "6",
-      "line": "44",
+      "line": "75",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "resetCols",
@@ -98574,13 +98560,13 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@1283@F@resetCols@i",
+    "ID": "c:LEDMATRIX.c@3039@F@resetCols@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "45",
+      "line": "76",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "i",
@@ -98594,7 +98580,7 @@
     "display": "void fireCols(void)",
     "location": {
       "column": "6",
-      "line": "49",
+      "line": "80",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "fireCols",
@@ -98602,13 +98588,13 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@1366@F@fireCols@i",
+    "ID": "c:LEDMATRIX.c@3122@F@fireCols@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "50",
+      "line": "81",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "i",
@@ -98622,7 +98608,7 @@
     "display": "void shiftRows(int)",
     "location": {
       "column": "6",
-      "line": "54",
+      "line": "85",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "shiftRows",
@@ -98636,7 +98622,7 @@
     "display": "void shiftCols(int)",
     "location": {
       "column": "6",
-      "line": "65",
+      "line": "96",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "shiftCols",
@@ -98650,7 +98636,7 @@
     "display": "void outputRows(void)",
     "location": {
       "column": "6",
-      "line": "77",
+      "line": "108",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "outputRows",
@@ -98664,7 +98650,7 @@
     "display": "void outputCols(void)",
     "location": {
       "column": "6",
-      "line": "85",
+      "line": "116",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "outputCols",
@@ -98678,94 +98664,10 @@
     "display": "void digitalWrite(volatile unsigned long *, int, int)",
     "location": {
       "column": "6",
-      "line": "94",
+      "line": "125",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "digitalWrite",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@assignBlockArray",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int assignBlockArray(int (*)[8], int (*)[16], int, int)",
-    "location": {
-      "column": "5",
-      "line": "102",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
-    },
-    "name": "assignBlockArray",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:LEDMATRIX.c@2873@F@assignBlockArray@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "13",
-      "line": "104",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:LEDMATRIX.c@2919@F@assignBlockArray@j",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "j",
-    "location": {
-      "column": "16",
-      "line": "105",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
-    },
-    "name": "j",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@assignNonBlockArray",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int assignNonBlockArray(int (*)[8], int (*)[16], int, int)",
-    "location": {
-      "column": "5",
-      "line": "112",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
-    },
-    "name": "assignNonBlockArray",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:LEDMATRIX.c@3251@F@assignNonBlockArray@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "13",
-      "line": "114",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:LEDMATRIX.c@3319@F@assignNonBlockArray@j",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "j",
-    "location": {
-      "column": "16",
-      "line": "115",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
-    },
-    "name": "j",
     "origin": "project_file",
     "scope": null
   },
@@ -98776,7 +98678,7 @@
     "display": "void writeAllExceptCol(int)",
     "location": {
       "column": "6",
-      "line": "123",
+      "line": "132",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "writeAllExceptCol",
@@ -98784,13 +98686,13 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3619@F@writeAllExceptCol@i",
+    "ID": "c:LEDMATRIX.c@4588@F@writeAllExceptCol@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "129",
+      "line": "138",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "i",
@@ -98798,13 +98700,13 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3669@F@writeAllExceptCol@i",
+    "ID": "c:LEDMATRIX.c@4638@F@writeAllExceptCol@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "130",
+      "line": "139",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "i",
@@ -98818,7 +98720,7 @@
     "display": "void playDiagonal(void)",
     "location": {
       "column": "6",
-      "line": "138",
+      "line": "147",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "playDiagonal",
@@ -98826,13 +98728,13 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3829@F@playDiagonal@iter",
+    "ID": "c:LEDMATRIX.c@4799@F@playDiagonal@iter",
     "What": "Variable",
     "defdec": "Def",
     "display": "iter",
     "location": {
       "column": "7",
-      "line": "139",
+      "line": "148",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "iter",
@@ -98840,13 +98742,13 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3879@F@playDiagonal@k",
+    "ID": "c:LEDMATRIX.c@4849@F@playDiagonal@k",
     "What": "Variable",
     "defdec": "Def",
     "display": "k",
     "location": {
       "column": "13",
-      "line": "141",
+      "line": "150",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "k",
@@ -98854,13 +98756,13 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@3980@F@playDiagonal@i",
+    "ID": "c:LEDMATRIX.c@4950@F@playDiagonal@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "16",
-      "line": "145",
+      "line": "154",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "i",
@@ -98868,13 +98770,13 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@4047@F@playDiagonal@j",
+    "ID": "c:LEDMATRIX.c@5017@F@playDiagonal@j",
     "What": "Variable",
     "defdec": "Def",
     "display": "j",
     "location": {
       "column": "18",
-      "line": "147",
+      "line": "156",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "j",
@@ -98888,7 +98790,7 @@
     "display": "void writeShape(int (*)[16])",
     "location": {
       "column": "6",
-      "line": "161",
+      "line": "170",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "writeShape",
@@ -98896,13 +98798,13 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@4402@F@writeShape@i",
+    "ID": "c:LEDMATRIX.c@5373@F@writeShape@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "164",
+      "line": "173",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "i",
@@ -98910,13 +98812,139 @@
     "scope": null
   },
   {
-    "ID": "c:LEDMATRIX.c@4461@F@writeShape@j",
+    "ID": "c:LEDMATRIX.c@5432@F@writeShape@j",
     "What": "Variable",
     "defdec": "Def",
     "display": "j",
     "location": {
       "column": "14",
-      "line": "166",
+      "line": "175",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "j",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@assignBlockArray",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int assignBlockArray(int (*)[8], int (*)[16], int, int)",
+    "location": {
+      "column": "5",
+      "line": "188",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "assignBlockArray",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:LEDMATRIX.c@5941@F@assignBlockArray@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "13",
+      "line": "190",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:LEDMATRIX.c@5987@F@assignBlockArray@j",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "j",
+    "location": {
+      "column": "16",
+      "line": "191",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "j",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@assignNonBlockArray",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int assignNonBlockArray(int (*)[8], int (*)[16], int, int)",
+    "location": {
+      "column": "5",
+      "line": "198",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "assignNonBlockArray",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:LEDMATRIX.c@6319@F@assignNonBlockArray@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "13",
+      "line": "200",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:LEDMATRIX.c@6387@F@assignNonBlockArray@j",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "j",
+    "location": {
+      "column": "16",
+      "line": "201",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "j",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@cpyArrToScreen",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void cpyArrToScreen(int (*)[16])",
+    "location": {
+      "column": "6",
+      "line": "208",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "cpyArrToScreen",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:LEDMATRIX.c@6613@F@cpyArrToScreen@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "10",
+      "line": "210",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:LEDMATRIX.c@6651@F@cpyArrToScreen@j",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "j",
+    "location": {
+      "column": "11",
+      "line": "211",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "j",
@@ -98930,7 +98958,7 @@
     "display": "void refresh(void)",
     "location": {
       "column": "6",
-      "line": "177",
+      "line": "215",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
     },
     "name": "refresh",
@@ -98938,44 +98966,16 @@
     "scope": null
   },
   {
-    "ID": "c:@F@cpyArrToScreen",
+    "ID": "c:@F@init",
     "What": "Function",
     "defdec": "Def",
-    "display": "void cpyArrToScreen(int (*)[16])",
+    "display": "void init(void)",
     "location": {
       "column": "6",
-      "line": "181",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
+      "line": "7",
+      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\main.c"
     },
-    "name": "cpyArrToScreen",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:LEDMATRIX.c@4788@F@cpyArrToScreen@i",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "i",
-    "location": {
-      "column": "10",
-      "line": "183",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
-    },
-    "name": "i",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:LEDMATRIX.c@4826@F@cpyArrToScreen@j",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "j",
-    "location": {
-      "column": "11",
-      "line": "184",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\LEDMATRIX.c"
-    },
-    "name": "j",
+    "name": "init",
     "origin": "project_file",
     "scope": null
   },
@@ -98986,7 +98986,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "41",
+      "line": "13",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\main.c"
     },
     "name": "main",
@@ -99000,7 +99000,7 @@
     "display": "void SysTick_Handler(void)",
     "location": {
       "column": "6",
-      "line": "63",
+      "line": "25",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\main.c"
     },
     "name": "SysTick_Handler",
@@ -99176,41 +99176,13 @@
     "scope": null
   },
   {
-    "ID": "c:@F@timeinit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void timeinit(void)",
-    "location": {
-      "column": "6",
-      "line": "4",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.c"
-    },
-    "name": "timeinit",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delaySec",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void delaySec(void)",
-    "location": {
-      "column": "6",
-      "line": "12",
-      "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.c"
-    },
-    "name": "delaySec",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@Timer0_init",
     "What": "Function",
     "defdec": "Def",
     "display": "void Timer0_init(void)",
     "location": {
       "column": "6",
-      "line": "37",
+      "line": "3",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.c"
     },
     "name": "Timer0_init",
@@ -99224,7 +99196,7 @@
     "display": "void delayMicroseconds(int)",
     "location": {
       "column": "6",
-      "line": "46",
+      "line": "12",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.c"
     },
     "name": "delayMicroseconds",
@@ -99238,7 +99210,7 @@
     "display": "void delay_milli(int)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "21",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.c"
     },
     "name": "delay_milli",
@@ -99252,7 +99224,7 @@
     "display": "void systickInit(int)",
     "location": {
       "column": "6",
-      "line": "65",
+      "line": "31",
       "path": "D:\\books+files\\ASU_BSc\\Senior1\\projects\\MicroControllers\\projects\\LED-Matrix-Game\\Time.c"
     },
     "name": "systickInit",

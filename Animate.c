@@ -326,7 +326,7 @@ void flash(){
 		player2 = true;
 	}
 	int cnt = 0;
-	while(1){
+	for(int i = 0; i < 10; i++){
 		if(player1)
 		{
 			if(player1Shape == 'R')
@@ -411,8 +411,6 @@ void flash(){
 			}
 		}
 		delay_milli(500);
-		if(readButtons())
-			break;
 		cnt^=1;
 	}
 }
@@ -430,42 +428,41 @@ void randomFlash(){
 		 //cpyarr(RandomShape1,shape);
 		break;
 		case 1:
-			cpyArrToScreen(RandomShape1);
+			cpyArrToScreen(RandomShape2);
 		 //cpyarr(RandomShape2,shape);
 		break;
 		case 2:
-			cpyArrToScreen(RandomShape2);
+			cpyArrToScreen(RandomShape3);
 		 //cpyarr(RandomShape3,shape);
 		break;
 		case 3:
-			cpyArrToScreen(RandomShape3);
+			cpyArrToScreen(RandomShape4);
 		 //cpyarr(RandomShape4,shape);
 		break;
 		case 4:
-			cpyArrToScreen(RandomShape4);
+			cpyArrToScreen(RandomShape5);
 		 //cpyarr(RandomShape5,shape);
 		break;
 		case 5:
-			cpyArrToScreen(RandomShape5);
+			cpyArrToScreen(RandomShape6);
 		 //cpyarr(RandomShape6,shape);
 		break;
 		case 6:
-			cpyArrToScreen(RandomShape6);
+			cpyArrToScreen(RandomShape7);
 		 //cpyarr(RandomShape7,shape);
 		break;
 		case 7:
-			cpyArrToScreen(RandomShape7);
+			cpyArrToScreen(RandomShape8);
 		 //cpyarr(RandomShape8,shape);
 		break;
 		case 8:
-			cpyArrToScreen(RandomShape8);
+			cpyArrToScreen(RandomShape9);
 		 //cpyarr(RandomShape9,shape);
 	}
-	delay_milli(500);
+	delay_milli(200);
     //draw any 2 random shapes
     //wait 0.5 seconds
     if(readButtons()){
-      volatile int k = -1;
       break;
     }
   

@@ -5,128 +5,71 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\LEDMATRIX.c</file>
-            <file>$PROJ_DIR$\LEDMATRIX.h</file>
-            <file>$PROJ_DIR$\Time.h</file>
-            <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Time.o</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Time.c</file>
-            <file>$PROJ_DIR$\Animate.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Animate.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\Final Project.pbd</file>
-            <file>$PROJ_DIR$\Debug\Exe\Final Project.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\LEDMATRIX.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\Time.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\LEDMATRIX.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\Animate.c</file>
-            <file>$PROJ_DIR$\Debug\List\Final Project.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
             <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\IO.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a</file>
             <file>$PROJ_DIR$\Debug\Obj\IO.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\RPS.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\List\Final Project.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LEDMATRIX.xcl</file>
+            <file>$PROJ_DIR$\Debug\Exe\Final Project.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a</file>
             <file>$PROJ_DIR$\Debug\Obj\IO.o</file>
             <file>$PROJ_DIR$\Debug\Obj\Animate.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\Debug\Obj\RPS.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\RPS.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\Time.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\LEDMATRIX.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Animate.c</file>
+            <file>$PROJ_DIR$\LEDMATRIX.c</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Time.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Animate.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\Final Project.pbd</file>
+            <file>$PROJ_DIR$\IO.h</file>
             <file>$PROJ_DIR$\RPS.h</file>
-            <file>$PROJ_DIR$\IO.c</file>
+            <file>$PROJ_DIR$\LEDMATRIX.h</file>
             <file>$PROJ_DIR$\RPS.c</file>
+            <file>$PROJ_DIR$\Animate.h</file>
+            <file>$PROJ_DIR$\Time.h</file>
+            <file>$PROJ_DIR$\IO.c</file>
+            <file>$PROJ_DIR$\Time.c</file>
+            <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 10 18</file>
+                    <file> 10 6</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\LEDMATRIX.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 11</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 15</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 1 3 2</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 12</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 14</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 1 3 31 2 7 40</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Time.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 4</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 13</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 2 3</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\Final Project.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 18</file>
+                    <file> 6</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 25 37 36 11 12 39 4 34 30 28 22 20</file>
+                    <file> 0 18 17 26 22 2 31 16 21 19 24 27</file>
                 </tool>
             </inputs>
         </file>
@@ -135,36 +78,55 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 37</file>
+                    <file> 18</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 8</file>
+                    <file> 32</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 7 31 40 1 3 2 16 27 33 32 29 26 21 24 19 23</file>
+                    <file> 38 34 35 36 42 39 11 12 5 14 8 13 4 15 20 7</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\IO.c</name>
+            <name>$PROJ_DIR$\LEDMATRIX.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 36</file>
+                    <file> 26</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 35</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 31 3</file>
+                    <file> 36 42 39</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 42 34 39 38 35</file>
                 </tool>
             </inputs>
         </file>
@@ -173,17 +135,55 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 39</file>
+                    <file> 2</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 38</file>
+                    <file> 23</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 40 7 31</file>
+                    <file> 35 38 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\IO.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34 42</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Time.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39 42</file>
                 </tool>
             </inputs>
         </file>

@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.1.212/W32 for ARM                  24/Dec/2019  00:01:14
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  24/Dec/2019  15:33:12
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
@@ -10,7 +10,7 @@
 #        D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\List\Final
 #        Project.map
 #    Command line =
-#        -f C:\Users\moham\AppData\Local\Temp\EW1562.tmp
+#        -f C:\Users\moham\AppData\Local\Temp\EW5380.tmp
 #        (D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\Animate.o
 #        D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\IO.o
 #        D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\LEDMATRIX.o
@@ -66,32 +66,33 @@ initialize by copy { rw };
   .intvec            ro code          0x0    0x40  vector_table_M.o [4]
                                    - 0x40    0x40
 
-"P1":                                       0x7ef
-  .text              ro code         0x40   0x220  LEDMATRIX.o [1]
-  .text              ro code        0x260    0xbc  Time.o [1]
-  .text              ro code        0x31c    0xb8  Animate.o [1]
-  .text              ro code        0x3d4    0xb0  rand.o [2]
-  .text              ro code        0x484    0x40  IO.o [1]
-  .text              ro code        0x4c4    0x78  lz77_init_single.o [4]
-  .text              ro code        0x53c    0x3a  zero_init3.o [4]
-  .text              ro code        0x576     0x2  vector_table_M.o [4]
-  .text              ro code        0x578    0x28  data_init.o [4]
-  .text              ro code        0x5a0    0x24  main.o [1]
-  .text              ro code        0x5c4    0x22  fpinit_M.o [3]
-  .iar.init_table    const          0x5e8    0x20  - Linker created -
-  .text              ro code        0x608    0x1e  cmain.o [4]
-  .text              ro code        0x626     0x4  low_level_init.o [2]
-  .text              ro code        0x62a     0x4  exit.o [2]
-  .text              ro code        0x630     0xa  cexit.o [4]
-  .text              ro code        0x63c    0x14  exit.o [5]
-  .text              ro code        0x650     0xc  cstartup_M.o [4]
-  .rodata            const          0x65c     0x0  zero_init3.o [4]
-  .rodata            const          0x65c     0x0  lz77_init_single.o [4]
-  Initializer bytes  const          0x65c   0x1d3  <for P2-1>
-                                  - 0x82f   0x7ef
+"P1":                                       0xf25
+  .text              ro code         0x40   0x28c  LEDMATRIX.o [1]
+  .text              ro code        0x2cc   0x254  Animate.o [1]
+  .text              ro code        0x520   0x1a4  RPS.o [1]
+  .text              ro code        0x6c4    0x9c  Time.o [1]
+  .text              ro code        0x760    0xb0  rand.o [2]
+  .text              ro code        0x810    0x48  IO.o [1]
+  .text              ro code        0x858    0x78  lz77_init_single.o [4]
+  .text              ro code        0x8d0    0x3a  zero_init3.o [4]
+  .text              ro code        0x90a     0x2  vector_table_M.o [4]
+  .text              ro code        0x90c    0x30  main.o [1]
+  .text              ro code        0x93c    0x28  data_init.o [4]
+  .text              ro code        0x964    0x22  fpinit_M.o [3]
+  .iar.init_table    const          0x988    0x20  - Linker created -
+  .text              ro code        0x9a8    0x1e  cmain.o [4]
+  .text              ro code        0x9c6     0x4  low_level_init.o [2]
+  .text              ro code        0x9ca     0x4  exit.o [2]
+  .text              ro code        0x9d0     0xa  cexit.o [4]
+  .text              ro code        0x9dc    0x14  exit.o [5]
+  .text              ro code        0x9f0     0xc  cstartup_M.o [4]
+  .rodata            const          0x9fc     0x0  zero_init3.o [4]
+  .rodata            const          0x9fc     0x0  lz77_init_single.o [4]
+  Initializer bytes  const          0x9fc   0x569  <for P2-1>
+                                  - 0xf65   0xf25
 
-"P2", part 1 of 3:                         0x1208
-  P2-1                        0x2000'0000  0x1208  <Init block>
+"P2", part 1 of 3:                         0x3808
+  P2-1                        0x2000'0000  0x3808  <Init block>
     .data            inited   0x2000'0000   0x200  Animate.o [1]
     .data            inited   0x2000'0200   0x200  Animate.o [1]
     .data            inited   0x2000'0400   0x200  Animate.o [1]
@@ -100,26 +101,49 @@ initialize by copy { rw };
     .data            inited   0x2000'0a00   0x200  Animate.o [1]
     .data            inited   0x2000'0c00   0x200  Animate.o [1]
     .data            inited   0x2000'0e00   0x200  Animate.o [1]
-    .data            inited   0x2000'1000   0x200  LEDMATRIX.o [1]
-    .data            inited   0x2000'1200     0x8  rand.o [2]
-                            - 0x2000'1208  0x1208
+    .data            inited   0x2000'1000   0x200  Animate.o [1]
+    .data            inited   0x2000'1200   0x200  Animate.o [1]
+    .data            inited   0x2000'1400   0x200  Animate.o [1]
+    .data            inited   0x2000'1600   0x200  Animate.o [1]
+    .data            inited   0x2000'1800   0x200  Animate.o [1]
+    .data            inited   0x2000'1a00   0x200  Animate.o [1]
+    .data            inited   0x2000'1c00   0x200  Animate.o [1]
+    .data            inited   0x2000'1e00   0x200  Animate.o [1]
+    .data            inited   0x2000'2000   0x200  Animate.o [1]
+    .data            inited   0x2000'2200   0x200  Animate.o [1]
+    .data            inited   0x2000'2400   0x200  Animate.o [1]
+    .data            inited   0x2000'2600   0x200  Animate.o [1]
+    .data            inited   0x2000'2800   0x200  Animate.o [1]
+    .data            inited   0x2000'2a00   0x200  Animate.o [1]
+    .data            inited   0x2000'2c00   0x200  Animate.o [1]
+    .data            inited   0x2000'2e00   0x200  Animate.o [1]
+    .data            inited   0x2000'3000   0x200  Animate.o [1]
+    .data            inited   0x2000'3200   0x200  Animate.o [1]
+    .data            inited   0x2000'3400   0x200  Animate.o [1]
+    .data            inited   0x2000'3600   0x200  LEDMATRIX.o [1]
+    .data            inited   0x2000'3800     0x8  rand.o [2]
+                            - 0x2000'3808  0x3808
 
-"P2", part 2 of 3:                           0x84
-  .bss               zero     0x2000'1208    0x84  rand.o [2]
-                            - 0x2000'128c    0x84
+"P2", part 2 of 3:                           0x8c
+  .bss               zero     0x2000'3808    0x84  rand.o [2]
+  .bss               zero     0x2000'388c     0x4  RPS.o [1]
+  .bss               zero     0x2000'3890     0x1  RPS.o [1]
+  .bss               zero     0x2000'3891     0x1  RPS.o [1]
+  .bss               zero     0x2000'3892     0x1  RPS.o [1]
+                            - 0x2000'3893    0x8b
 
 "P2", part 3 of 3:                         0x1000
-  CSTACK                      0x2000'1290  0x1000  <Block>
-    CSTACK           uninit   0x2000'1290  0x1000  <Block tail>
-                            - 0x2000'2290  0x1000
+  CSTACK                      0x2000'3898  0x1000  <Block>
+    CSTACK           uninit   0x2000'3898  0x1000  <Block tail>
+                            - 0x2000'4898  0x1000
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0x82f     0x3'ffff  0x3'f7d1
-  0x2000'128c  0x2000'128f       0x4
-  0x2000'2290  0x2000'7fff    0x5d70
+        0xf65     0x3'ffff  0x3'f09b
+  0x2000'3894  0x2000'3897       0x4
+  0x2000'4898  0x2000'7fff    0x3768
 
 
 *******************************************************************************
@@ -129,14 +153,14 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x84:
-          0x2000'1208    0x84
+    1 destination range, total size 0x8b:
+          0x2000'3808    0x8b
 
 Copy/lz77 (__iar_lz77_init_single3)
-    1 source range, total size 0x1d3 (10% of destination):
-                0x65c   0x1d3
-    1 destination range, total size 0x1208:
-          0x2000'0000  0x1208
+    1 source range, total size 0x569 (9% of destination):
+                0x9fc   0x569
+    1 destination range, total size 0x3808:
+          0x2000'0000  0x3808
 
 
 
@@ -151,13 +175,14 @@ command line/config:
     Total:
 
 D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj: [1]
-    Animate.o               184      414    4'096
-    IO.o                     64
-    LEDMATRIX.o             544       52      512
-    Time.o                  188
-    main.o                   36
+    Animate.o               596    1'334   13'824
+    IO.o                     72
+    LEDMATRIX.o             652       50      512
+    RPS.o                   420                 7
+    Time.o                  156
+    main.o                   48
     ---------------------------------------------
-    Total:                1'016      466    4'608
+    Total:                1'944    1'384   14'343
 
 dl7M_tln.a: [2]
     exit.o                    4
@@ -190,7 +215,7 @@ shb_l.a: [5]
     Gaps                      4        2
     Linker created                    32    4'096
 -------------------------------------------------
-    Grand Total:          1'594      501    8'844
+    Grand Total:          2'522    1'419   18'579
 
 
 *******************************************************************************
@@ -199,62 +224,95 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base         0x5e8          --   Gb  - Linker created -
-.iar.init_table$$Limit        0x608          --   Gb  - Linker created -
-?main                         0x609         Code  Gb  cmain.o [4]
-CSTACK$$Base            0x2000'1290          --   Gb  - Linker created -
-CSTACK$$Limit           0x2000'2290          --   Gb  - Linker created -
-LED_init                       0x41   0x60  Code  Gb  LEDMATRIX.o [1]
-RandomShape1            0x2000'0000  0x200  Data  Gb  Animate.o [1]
-RandomShape2            0x2000'0200  0x200  Data  Gb  Animate.o [1]
-RandomShape3            0x2000'0400  0x200  Data  Gb  Animate.o [1]
-RandomShape4            0x2000'0600  0x200  Data  Gb  Animate.o [1]
-RandomShape5            0x2000'0800  0x200  Data  Gb  Animate.o [1]
-RandomShape6            0x2000'0a00  0x200  Data  Gb  Animate.o [1]
-RandomShape7            0x2000'0c00  0x200  Data  Gb  Animate.o [1]
-RandomShape8            0x2000'0e00  0x200  Data  Gb  Animate.o [1]
-Region$$Table$$Base           0x5e8          --   Gb  - Linker created -
-Region$$Table$$Limit          0x608          --   Gb  - Linker created -
-SysTick_Handler               0x5bd    0x8  Code  Gb  main.o [1]
-Timer0_init                   0x261   0x1e  Code  Gb  Time.o [1]
-_Rand_idx               0x2000'1288    0x4  Data  Lc  rand.o [2]
-_Rand_rv                0x2000'1208   0x80  Data  Lc  rand.o [2]
-_Randinit               0x2000'1200    0x1  Data  Gb  rand.o [2]
-_Randseed               0x2000'1204    0x4  Data  Gb  rand.o [2]
-__cmain                       0x609         Code  Gb  cmain.o [4]
-__exit                        0x63d   0x14  Code  Gb  exit.o [5]
-__iar_data_init3              0x579   0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp                0x5c5         Code  Gb  fpinit_M.o [3]
+.iar.init_table$$Base         0x988          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x9a8          --   Gb  - Linker created -
+?main                         0x9a9         Code  Gb  cmain.o [4]
+CSTACK$$Base            0x2000'3898          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'4898          --   Gb  - Linker created -
+LED_init                       0x91   0x64  Code  Gb  LEDMATRIX.o [1]
+P1Pwin1                 0x2000'0400  0x200  Data  Gb  Animate.o [1]
+P1Pwin2                 0x2000'0600  0x200  Data  Gb  Animate.o [1]
+P1Rwin1                 0x2000'0000  0x200  Data  Gb  Animate.o [1]
+P1Rwin2                 0x2000'0200  0x200  Data  Gb  Animate.o [1]
+P1Swin1                 0x2000'0800  0x200  Data  Gb  Animate.o [1]
+P1Swin2                 0x2000'0a00  0x200  Data  Gb  Animate.o [1]
+P2PWin1                 0x2000'1000  0x200  Data  Gb  Animate.o [1]
+P2PWin2                 0x2000'1200  0x200  Data  Gb  Animate.o [1]
+P2RWin1                 0x2000'0c00  0x200  Data  Gb  Animate.o [1]
+P2RWin2                 0x2000'0e00  0x200  Data  Gb  Animate.o [1]
+P2SWin1                 0x2000'1400  0x200  Data  Gb  Animate.o [1]
+P2SWin2                 0x2000'1600  0x200  Data  Gb  Animate.o [1]
+PTie1                   0x2000'1c00  0x200  Data  Gb  Animate.o [1]
+PTie2                   0x2000'1e00  0x200  Data  Gb  Animate.o [1]
+RPC                           0x521   0x9a  Code  Gb  RPS.o [1]
+RTie1                   0x2000'1800  0x200  Data  Gb  Animate.o [1]
+RTie2                   0x2000'1a00  0x200  Data  Gb  Animate.o [1]
+RandomShape1            0x2000'2400  0x200  Data  Gb  Animate.o [1]
+RandomShape2            0x2000'2600  0x200  Data  Gb  Animate.o [1]
+RandomShape3            0x2000'2800  0x200  Data  Gb  Animate.o [1]
+RandomShape4            0x2000'2a00  0x200  Data  Gb  Animate.o [1]
+RandomShape5            0x2000'2c00  0x200  Data  Gb  Animate.o [1]
+RandomShape6            0x2000'2e00  0x200  Data  Gb  Animate.o [1]
+RandomShape7            0x2000'3000  0x200  Data  Gb  Animate.o [1]
+RandomShape8            0x2000'3200  0x200  Data  Gb  Animate.o [1]
+RandomShape9            0x2000'3400  0x200  Data  Gb  Animate.o [1]
+Region$$Table$$Base           0x988          --   Gb  - Linker created -
+Region$$Table$$Limit          0x9a8          --   Gb  - Linker created -
+STie1                   0x2000'2000  0x200  Data  Gb  Animate.o [1]
+STie2                   0x2000'2200  0x200  Data  Gb  Animate.o [1]
+SysTick_Handler               0x935    0x8  Code  Gb  main.o [1]
+Timer0_init                   0x6c5   0x1e  Code  Gb  Time.o [1]
+Timer1_init                    0x41   0x26  Code  Gb  LEDMATRIX.o [1]
+_Rand_idx               0x2000'3888    0x4  Data  Lc  rand.o [2]
+_Rand_rv                0x2000'3808   0x80  Data  Lc  rand.o [2]
+_Randinit               0x2000'3800    0x1  Data  Gb  rand.o [2]
+_Randseed               0x2000'3804    0x4  Data  Gb  rand.o [2]
+__cmain                       0x9a9         Code  Gb  cmain.o [4]
+__exit                        0x9dd   0x14  Code  Gb  exit.o [5]
+__iar_data_init3              0x93d   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                0x965         Code  Gb  fpinit_M.o [3]
 __iar_lz77_init_single3
-                              0x4c5   0x78  Code  Gb  lz77_init_single.o [4]
-__iar_program_start           0x651         Code  Gb  cstartup_M.o [4]
-__iar_zero_init3              0x53d   0x3a  Code  Gb  zero_init3.o [4]
-__low_level_init              0x627    0x4  Code  Gb  low_level_init.o [2]
+                              0x859   0x78  Code  Gb  lz77_init_single.o [4]
+__iar_program_start           0x9f1         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3              0x8d1   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init              0x9c7    0x4  Code  Gb  low_level_init.o [2]
 __vector_table                  0x0         Data  Gb  vector_table_M.o [4]
-_call_main                    0x615         Code  Gb  cmain.o [4]
-_exit                         0x631         Code  Gb  cexit.o [4]
-_main                         0x623         Code  Gb  cmain.o [4]
-cpyArrToScreen                0x209   0x34  Code  Gb  LEDMATRIX.o [1]
-delayMicroseconds             0x27f   0x22  Code  Gb  Time.o [1]
-delay_milli                   0x2a1   0x26  Code  Gb  Time.o [1]
-digitalWrite                  0x199   0x16  Code  Gb  LEDMATRIX.o [1]
-exit                          0x62b    0x4  Code  Gb  exit.o [2]
-init_port_e                   0x485   0x2a  Code  Gb  IO.o [1]
-main                          0x5a1   0x16  Code  Gb  main.o [1]
-outputCols                    0x173   0x26  Code  Gb  LEDMATRIX.o [1]
-outputRows                    0x14d   0x26  Code  Gb  LEDMATRIX.o [1]
-rand                          0x3d5   0x94  Code  Gb  rand.o [2]
-randomFlash                   0x31d   0x94  Code  Gb  Animate.o [1]
-readButtons                   0x4c1    0x4  Code  Gb  IO.o [1]
-refresh                       0x1ff    0xa  Code  Gb  LEDMATRIX.o [1]
-resetCols                      0xb5   0x14  Code  Gb  LEDMATRIX.o [1]
-resetRows                      0xa1   0x14  Code  Gb  LEDMATRIX.o [1]
-screen                  0x2000'1000  0x200  Data  Gb  LEDMATRIX.o [1]
-shiftCols                     0x10b   0x42  Code  Gb  LEDMATRIX.o [1]
-shiftRows                      0xc9   0x42  Code  Gb  LEDMATRIX.o [1]
-srand                         0x469    0xa  Code  Gb  rand.o [2]
-systickInit                   0x2c9   0x28  Code  Gb  Time.o [1]
-writeShape                    0x1af   0x50  Code  Gb  LEDMATRIX.o [1]
+_call_main                    0x9b5         Code  Gb  cmain.o [4]
+_exit                         0x9d1         Code  Gb  cexit.o [4]
+_main                         0x9c3         Code  Gb  cmain.o [4]
+cpyArrToScreen                0x253   0x34  Code  Gb  LEDMATRIX.o [1]
+delayMicroseconds1             0x67   0x2a  Code  Gb  LEDMATRIX.o [1]
+delay_milli                   0x6e3   0x26  Code  Gb  Time.o [1]
+digitalWrite                  0x1ed   0x16  Code  Gb  LEDMATRIX.o [1]
+exit                          0x9cb    0x4  Code  Gb  exit.o [2]
+flash                         0x2cd  0x156  Code  Gb  Animate.o [1]
+getP1Shape                    0x5c1    0x6  Code  Gb  RPS.o [1]
+getP2Shape                    0x5c7    0x6  Code  Gb  RPS.o [1]
+getWinner                     0x5bb    0x6  Code  Gb  RPS.o [1]
+init                          0x90d   0x16  Code  Gb  main.o [1]
+init_port_e                   0x811   0x2a  Code  Gb  IO.o [1]
+main                          0x929    0xc  Code  Gb  main.o [1]
+outputCols                    0x1c7   0x26  Code  Gb  LEDMATRIX.o [1]
+outputRows                    0x1a1   0x26  Code  Gb  LEDMATRIX.o [1]
+player1Shape            0x2000'3890    0x1  Data  Gb  RPS.o [1]
+player2Shape            0x2000'3891    0x1  Data  Gb  RPS.o [1]
+rand                          0x761   0x94  Code  Gb  rand.o [2]
+randomFlash                   0x423   0x8c  Code  Gb  Animate.o [1]
+readButtons                   0x83b    0xa  Code  Gb  IO.o [1]
+refresh                       0x287    0xa  Code  Gb  LEDMATRIX.o [1]
+resetCols                     0x109   0x14  Code  Gb  LEDMATRIX.o [1]
+resetRows                      0xf5   0x14  Code  Gb  LEDMATRIX.o [1]
+screen                  0x2000'3600  0x200  Data  Gb  LEDMATRIX.o [1]
+shiftCols                     0x15f   0x42  Code  Gb  LEDMATRIX.o [1]
+shiftRows                     0x11d   0x42  Code  Gb  LEDMATRIX.o [1]
+srand                         0x7f5    0xa  Code  Gb  rand.o [2]
+state                   0x2000'3892    0x1  Data  Gb  RPS.o [1]
+systickInit                   0x70d   0x28  Code  Gb  Time.o [1]
+updatePlayer1                 0x5cd   0x58  Code  Gb  RPS.o [1]
+updatePlayer2                 0x625   0x58  Code  Gb  RPS.o [1]
+updateState                   0x67d   0x38  Code  Gb  RPS.o [1]
+winner                  0x2000'388c    0x4  Data  Gb  RPS.o [1]
+writeShape                    0x203   0x50  Code  Gb  LEDMATRIX.o [1]
 
 
 [1] = D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj
@@ -263,9 +321,9 @@ writeShape                    0x1af   0x50  Code  Gb  LEDMATRIX.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  1'594 bytes of readonly  code memory
-    501 bytes of readonly  data memory
-  8'844 bytes of readwrite data memory
+   2'522 bytes of readonly  code memory
+   1'419 bytes of readonly  data memory
+  18'579 bytes of readwrite data memory
 
 Errors: none
 Warnings: none
