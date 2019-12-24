@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.1.212/W32 for ARM                  22/Dec/2019  22:51:07
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  24/Dec/2019  02:38:44
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
@@ -10,13 +10,13 @@
 #        C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper
 #        Scisser)\Debug\List\Final Project.map
 #    Command line =
-#        -f C:\Users\NOURE-~1\AppData\Local\Temp\EWE1EA.tmp ("C:\Users\Nour
+#        -f C:\Users\NOURE-~1\AppData\Local\Temp\EWA1AE.tmp ("C:\Users\Nour
 #        E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper
-#        Scisser)\Debug\Obj\keypad.o" "C:\Users\Nour E-Din\Desktop\Embedded
+#        Scisser)\Debug\Obj\IO.o" "C:\Users\Nour E-Din\Desktop\Embedded
 #        projects\LED Matrix (Rock Papper Scisser)\Debug\Obj\LEDMATRIX.o"
 #        "C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper
 #        Scisser)\Debug\Obj\main.o" "C:\Users\Nour E-Din\Desktop\Embedded
-#        projects\LED Matrix (Rock Papper Scisser)\Debug\Obj\systick.o"
+#        projects\LED Matrix (Rock Papper Scisser)\Debug\Obj\RPS.o"
 #        "C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper
 #        Scisser)\Debug\Obj\Time.o" --no_out_extension -o "C:\Users\Nour
 #        E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper
@@ -29,15 +29,6 @@
 #        --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
-
-*******************************************************************************
-*** MESSAGES
-***
-
-Error[Li005]: no definition for "IntRegister" [referenced from C:\Users\Nour
-          E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper
-          Scisser)\Debug\Obj\systick.o]
-
 
 *******************************************************************************
 *** RUNTIME MODEL ATTRIBUTES
@@ -75,25 +66,23 @@ initialize by copy { rw };
   .intvec            ro code          0x0    0x40  vector_table_M.o [4]
                                    - 0x40    0x40
 
-"P1":                                       0x42e
-  .text              ro code         0x40   0x20c  LEDMATRIX.o [1]
-  .text              ro code        0x24c    0x7c  Time.o [1]
-  .text              ro code        0x2c8    0x40  systick.o [1]
-  .text              ro code        0x308    0x38  packbits_init_single.o [4]
-  .text              ro code        0x340    0x28  data_init.o [4]
-  .text              ro code        0x368    0x22  fpinit_M.o [3]
-  .iar.init_table    const          0x38c    0x10  - Linker created -
-  .text              ro code        0x39c     0x2  vector_table_M.o [4]
-  .text              ro code        0x3a0    0x1e  cmain.o [4]
-  .text              ro code        0x3be     0x4  low_level_init.o [2]
-  .text              ro code        0x3c4    0x1c  main.o [1]
-  .text              ro code        0x3e0     0x4  exit.o [2]
-  .text              ro code        0x3e4     0xa  cexit.o [4]
-  .text              ro code        0x3f0    0x14  exit.o [5]
-  .text              ro code        0x404     0xc  cstartup_M.o [4]
-  .rodata            const          0x410     0x0  packbits_init_single.o [4]
-  Initializer bytes  const          0x410    0x5e  <for P2-1>
-                                  - 0x46e   0x42e
+"P1":                                       0x3d2
+  .text              ro code         0x40   0x278  LEDMATRIX.o [1]
+  .text              ro code        0x2b8    0x38  packbits_init_single.o [4]
+  .text              ro code        0x2f0    0x28  data_init.o [4]
+  .text              ro code        0x318    0x22  fpinit_M.o [3]
+  .iar.init_table    const          0x33c    0x10  - Linker created -
+  .text              ro code        0x34c     0x2  vector_table_M.o [4]
+  .text              ro code        0x350    0x1e  cmain.o [4]
+  .text              ro code        0x36e     0x4  low_level_init.o [2]
+  .text              ro code        0x372    0x12  main.o [1]
+  .text              ro code        0x384     0x4  exit.o [2]
+  .text              ro code        0x388     0xa  cexit.o [4]
+  .text              ro code        0x394    0x14  exit.o [5]
+  .text              ro code        0x3a8     0xc  cstartup_M.o [4]
+  .rodata            const          0x3b4     0x0  packbits_init_single.o [4]
+  Initializer bytes  const          0x3b4    0x5e  <for P2-1>
+                                  - 0x412   0x3d2
 
 "P2", part 1 of 2:                          0x200
   P2-1                        0x2000'0000   0x200  <Init block>
@@ -109,7 +98,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0x46e     0x3'ffff  0x3'fb92
+        0x412     0x3'ffff  0x3'fbee
   0x2000'1200  0x2000'7fff    0x6e00
 
 
@@ -121,7 +110,7 @@ Unused ranges:
           -------      ----
 Copy/packbits (__iar_packbits_init_single3)
     1 source range, total size 0x5e (18% of destination):
-                0x410   0x5e
+                0x3b4   0x5e
     1 destination range, total size 0x200:
           0x2000'0000  0x200
 
@@ -138,12 +127,10 @@ command line/config:
     Total:
 
 C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\Debug\Obj: [1]
-    LEDMATRIX.o                 524       94      512
-    Time.o                      124
-    main.o                       28
-    systick.o                    64
+    LEDMATRIX.o                 632       94      512
+    main.o                       18
     -------------------------------------------------
-    Total:                      740       94      512
+    Total:                      650       94      512
 
 dl7M_tln.a: [2]
     exit.o                        4
@@ -171,10 +158,10 @@ shb_l.a: [5]
     -------------------------------------------------
     Total:                       20
 
-    Gaps                          6        2
+    Gaps                          4        2
     Linker created                        16    4'096
 -----------------------------------------------------
-    Grand Total:              1'022      112    4'608
+    Grand Total:                930      112    4'608
 
 
 *******************************************************************************
@@ -183,46 +170,41 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base         0x38c          --   Gb  - Linker created -
-.iar.init_table$$Limit        0x39c          --   Gb  - Linker created -
-?main                         0x3a1         Code  Gb  cmain.o [4]
+.iar.init_table$$Base         0x33c          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x34c          --   Gb  - Linker created -
+?main                         0x351         Code  Gb  cmain.o [4]
 CSTACK$$Base            0x2000'0200          --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'1200          --   Gb  - Linker created -
-LED_init                       0x41   0x64  Code  Gb  LEDMATRIX.o [1]
-Region$$Table$$Base           0x38c          --   Gb  - Linker created -
-Region$$Table$$Limit          0x39c          --   Gb  - Linker created -
-SysTickEnable                 0x2c9    0xc  Code  Gb  systick.o [1]
-SysTickIntEnable              0x2eb    0xc  Code  Gb  systick.o [1]
-SysTickIntRegister            0x2d5   0x16  Code  Gb  systick.o [1]
-SysTickPeriodSet              0x2f7    0x8  Code  Gb  systick.o [1]
-SysTick_Handler               0x3d9    0x8  Code  Gb  main.o [1]
-Timer0_init                   0x24d   0x1e  Code  Gb  Time.o [1]
-__cmain                       0x3a1         Code  Gb  cmain.o [4]
-__exit                        0x3f1   0x14  Code  Gb  exit.o [5]
-__iar_data_init3              0x341   0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp                0x369         Code  Gb  fpinit_M.o [3]
+LED_init                       0x91   0x64  Code  Gb  LEDMATRIX.o [1]
+Region$$Table$$Base           0x33c          --   Gb  - Linker created -
+Region$$Table$$Limit          0x34c          --   Gb  - Linker created -
+SysTick_Handler               0x37d    0x8  Code  Gb  main.o [1]
+Timer1_init                    0x41   0x26  Code  Gb  LEDMATRIX.o [1]
+__cmain                       0x351         Code  Gb  cmain.o [4]
+__exit                        0x395   0x14  Code  Gb  exit.o [5]
+__iar_data_init3              0x2f1   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                0x319         Code  Gb  fpinit_M.o [3]
 __iar_packbits_init_single3
-                              0x309   0x38  Code  Gb  packbits_init_single.o [4]
-__iar_program_start           0x405         Code  Gb  cstartup_M.o [4]
-__low_level_init              0x3bf    0x4  Code  Gb  low_level_init.o [2]
+                              0x2b9   0x38  Code  Gb  packbits_init_single.o [4]
+__iar_program_start           0x3a9         Code  Gb  cstartup_M.o [4]
+__low_level_init              0x36f    0x4  Code  Gb  low_level_init.o [2]
 __vector_table                  0x0         Data  Gb  vector_table_M.o [4]
-_call_main                    0x3ad         Code  Gb  cmain.o [4]
-_exit                         0x3e5         Code  Gb  cexit.o [4]
-_main                         0x3bb         Code  Gb  cmain.o [4]
-delayMicroseconds             0x26b   0x22  Code  Gb  Time.o [1]
-digitalWrite                  0x19d   0x16  Code  Gb  LEDMATRIX.o [1]
-exit                          0x3e1    0x4  Code  Gb  exit.o [2]
-main                          0x3c5   0x12  Code  Gb  main.o [1]
-outputCols                    0x177   0x26  Code  Gb  LEDMATRIX.o [1]
-outputRows                    0x151   0x26  Code  Gb  LEDMATRIX.o [1]
-refresh                       0x221    0xa  Code  Gb  LEDMATRIX.o [1]
-resetCols                      0xb9   0x14  Code  Gb  LEDMATRIX.o [1]
-resetRows                      0xa5   0x14  Code  Gb  LEDMATRIX.o [1]
+_call_main                    0x35d         Code  Gb  cmain.o [4]
+_exit                         0x389         Code  Gb  cexit.o [4]
+_main                         0x36b         Code  Gb  cmain.o [4]
+delayMicroseconds1             0x67   0x2a  Code  Gb  LEDMATRIX.o [1]
+digitalWrite                  0x1ed   0x16  Code  Gb  LEDMATRIX.o [1]
+exit                          0x385    0x4  Code  Gb  exit.o [2]
+main                          0x373    0xa  Code  Gb  main.o [1]
+outputCols                    0x1c7   0x26  Code  Gb  LEDMATRIX.o [1]
+outputRows                    0x1a1   0x26  Code  Gb  LEDMATRIX.o [1]
+refresh                       0x271    0xa  Code  Gb  LEDMATRIX.o [1]
+resetCols                     0x109   0x14  Code  Gb  LEDMATRIX.o [1]
+resetRows                      0xf5   0x14  Code  Gb  LEDMATRIX.o [1]
 screen                  0x2000'0000  0x200  Data  Gb  LEDMATRIX.o [1]
-shiftCols                     0x10f   0x42  Code  Gb  LEDMATRIX.o [1]
-shiftRows                      0xcd   0x42  Code  Gb  LEDMATRIX.o [1]
-systickInit                   0x28d   0x1a  Code  Gb  Time.o [1]
-writeShape                    0x1b3   0x6e  Code  Gb  LEDMATRIX.o [1]
+shiftCols                     0x15f   0x42  Code  Gb  LEDMATRIX.o [1]
+shiftRows                     0x11d   0x42  Code  Gb  LEDMATRIX.o [1]
+writeShape                    0x203   0x6e  Code  Gb  LEDMATRIX.o [1]
 
 
 [1] = C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\Debug\Obj
@@ -231,9 +213,9 @@ writeShape                    0x1b3   0x6e  Code  Gb  LEDMATRIX.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  1'022 bytes of readonly  code memory
+    930 bytes of readonly  code memory
     112 bytes of readonly  data memory
   4'608 bytes of readwrite data memory
 
-Errors: 1
+Errors: none
 Warnings: none

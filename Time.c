@@ -1,38 +1,4 @@
 #include "Time.h"
-#include "systick.h"
-
-void timeinit(void){         
-       NVIC_ST_CTRL_R=0;                               
-       NVIC_ST_RELOAD_R = 0xF423FF;                    //reload value starts from 15,999,999
-      
-       NVIC_ST_CTRL_R=5;                               //SysTick Control: no interupt, internal clock, Enable 
-}
-
-//-----------------DELAYS--------------------
-void delaySec()
-{
-  NVIC_ST_RELOAD_R = 0xF423FF;                    //reload value starts from 15,999,999
-  NVIC_ST_CURRENT_R=0;
-  while ((NVIC_ST_CTRL_R & 0x10000) == 0);
-}
-
-
-void delay_milli(int dur){
-  NVIC_ST_RELOAD_R = 0x3E7F;                  //reload value starts from 15,999
-  for (int i = 0; i < dur ;i ++){
-    //NVIC_ST_CURRENT_R=0;
-    while ((NVIC_ST_CTRL_R & 0x10000) == 0);
-  }
-}
-
-
-/*void delayMicroseconds(int dur){
-  NVIC_ST_RELOAD_R = 0xF;                  //reload value starts from 15
-  NVIC_ST_CURRENT_R=0;
-  for (int i = 0; i < dur ;i++){
-    while ((NVIC_ST_CTRL_R & 0x10000) == 0);
-  }
-}*/
 
 void Timer0_init(){
     SYSCTL_RCGCTIMER_R |= 0x01;
@@ -62,9 +28,9 @@ void delay(int dur){ // delay milli
 }
 
 //sets upsystick for interrupts
-void systickInit(void(*fun)(void)){
+/*void systickInit(void(*fun)(void)){
   SysTickPeriodSet(480000);
   SysTickIntRegister(fun);
   SysTickIntEnable();
   SysTickEnable();
-}
+}*/

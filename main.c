@@ -38,7 +38,7 @@ void SysTick_Handler();
 int main()
 {
   LED_init();
-  systickInit(SysTick_Handler);
+  //systickInit(SysTick_Handler);
    
    while(1){
      //resetRows();

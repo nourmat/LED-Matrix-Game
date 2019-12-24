@@ -1,12 +1,12 @@
-"C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\systick.c"
+"C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\IO.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\Debug\Obj\systick.pbi.dep
+C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\Debug\Obj\IO.pbi.dep
 -o
-systick.pbi
+IO.pbi
 -I
 C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)
 -I
