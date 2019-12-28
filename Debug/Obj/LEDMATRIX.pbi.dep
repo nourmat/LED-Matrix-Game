@@ -1,5 +1,5 @@
 LEDMATRIX.pbi: \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\LEDMATRIX.c \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game/LEDMATRIX.h \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game/tm4c123gh6pm.h \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game/Time.h
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED\LEDMATRIX.c \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/LEDMATRIX.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/tm4c123gh6pm.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/Time.h
