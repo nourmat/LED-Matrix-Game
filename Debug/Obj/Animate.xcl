@@ -1,14 +1,14 @@
-"D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Animate.c"
+"C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\Animate.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\Animate.pbi.dep
+C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)\Debug\Obj\Animate.pbi.dep
 -o
 Animate.pbi
 -I
-D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game
+C:\Users\Nour E-Din\Desktop\Embedded projects\LED Matrix (Rock Papper Scisser)
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I

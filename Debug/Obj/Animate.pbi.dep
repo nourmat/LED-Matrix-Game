@@ -1,11 +1,11 @@
 Animate.pbi: \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Animate.c \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game/Animate.h \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game/IO.h \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game/RPS.h \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game/LEDMATRIX.h \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game/tm4c123gh6pm.h \
-  D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game/Time.h \
+  C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)\Animate.c \
+  C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/Animate.h \
+  C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/IO.h \
+  C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/RPS.h \
+  C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/LEDMATRIX.h \
+  C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/tm4c123gh6pm.h \
+  C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/Time.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdbool.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdio.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
