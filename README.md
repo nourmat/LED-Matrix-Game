@@ -31,5 +31,8 @@ This is the main file of the project where it all starts. (contains the main log
 ## H Files
 All H files contains definitions for connections to easily change port or pins, and contains functions definitions.
 
-#LED MATRIX Diagram 
+# LED MATRIX Diagram 
 ![led matrix 8*8](led-matrix-8x8.png)
+
+# Shift Reg IC Diagram 
+![led matrix 8*8](shiftReg.png)
