@@ -1,4 +1,5 @@
 main.pbi: \
+<<<<<<< HEAD
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)\RPS.h \
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)\Animate.h \
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)\Time.h \
@@ -6,3 +7,12 @@ main.pbi: \
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)\tm4c123gh6pm.h \
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)\LEDMATRIX.h \
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)\main.c
+=======
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED\main.c \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/LEDMATRIX.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/tm4c123gh6pm.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/IO.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/Time.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/Animate.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/RPS.h
+>>>>>>> refs/remotes/origin/master

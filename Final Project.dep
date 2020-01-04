@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>3564638933</fileChecksum>
+    <fileChecksum>4135045857</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
+<<<<<<< HEAD
             <file>$PROJ_DIR$\LEDMATRIX.h</file>
             <file>$PROJ_DIR$\RPS.h</file>
             <file>$PROJ_DIR$\RPS.c</file>
@@ -48,17 +49,66 @@
             <file>$PROJ_DIR$\Debug\Obj\IO.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\Animate.o</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+=======
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Animate.c</file>
+            <file>$PROJ_DIR$\Animate.h</file>
+            <file>$PROJ_DIR$\IO.h</file>
+            <file>$PROJ_DIR$\LEDMATRIX.c</file>
+            <file>$PROJ_DIR$\IO.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\LEDMATRIX.xcl</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$PROJ_DIR$\LEDMATRIX.h</file>
+            <file>$PROJ_DIR$\Time.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Animate.o</file>
+            <file>$PROJ_DIR$\RPS.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\List\Final Project.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Time.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\RPS.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Animate.xcl</file>
+            <file>$PROJ_DIR$\Debug\Exe\Final Project.out</file>
+            <file>$PROJ_DIR$\RPS.c</file>
+            <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\RPS.xcl</file>
+            <file>$PROJ_DIR$\Time.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\LEDMATRIX.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\IO.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\IO.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\Time.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\Final Project.pbd</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+>>>>>>> refs/remotes/origin/master
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
+<<<<<<< HEAD
                     <file> 39 26</file>
+=======
+                    <file> 20 14</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </outputs>
         </file>
         <file>
+<<<<<<< HEAD
             <name>$PROJ_DIR$\RPS.c</name>
             <outputs>
                 <tool>
@@ -68,16 +118,32 @@
                 <tool>
                     <name>BICOMP</name>
                     <file> 12</file>
+=======
+            <name>$PROJ_DIR$\Animate.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
+<<<<<<< HEAD
                     <file> 1 7 3</file>
+=======
+                    <file> 3 4 12 9 22 10 0 18 29 1 32 15 33 30 34 28</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </inputs>
         </file>
         <file>
+<<<<<<< HEAD
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
@@ -87,12 +153,27 @@
                 <tool>
                     <name>BICOMP</name>
                     <file> 30</file>
+=======
+            <name>$PROJ_DIR$\LEDMATRIX.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
+<<<<<<< HEAD
                     <file> 0 35 3 10 7 1</file>
+=======
+                    <file> 9 22 10</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </inputs>
         </file>
@@ -100,18 +181,31 @@
             <name>$PROJ_DIR$\IO.c</name>
             <outputs>
                 <tool>
+<<<<<<< HEAD
                     <name>ICCARM</name>
                     <file> 34</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 40</file>
+=======
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
+<<<<<<< HEAD
                     <file> 3 35</file>
+=======
+                    <file> 4 22</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </inputs>
         </file>
@@ -119,22 +213,36 @@
             <name>$PROJ_DIR$\Animate.c</name>
             <outputs>
                 <tool>
+<<<<<<< HEAD
                     <name>ICCARM</name>
                     <file> 41</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 27</file>
+=======
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
+<<<<<<< HEAD
                     <file> 7 3 1 0 35 10 19 38 24 28 31 21 37 36 15 33</file>
+=======
+                    <file> 9 22 4 10 3 12</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </inputs>
         </file>
         <file>
+<<<<<<< HEAD
             <name>$PROJ_DIR$\LEDMATRIX.c</name>
             <outputs>
                 <tool>
@@ -144,16 +252,29 @@
                 <tool>
                     <name>BICOMP</name>
                     <file> 17</file>
+=======
+            <name>$PROJ_DIR$\Debug\Exe\Final Project.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 14</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </outputs>
             <inputs>
                 <tool>
+<<<<<<< HEAD
                     <name>ICCARM</name>
                     <file> 0 35 10</file>
+=======
+                    <name>ILINK</name>
+                    <file> 8 11 31 25 26 17 36 39 41 38 40</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </inputs>
         </file>
         <file>
+<<<<<<< HEAD
             <name>$PROJ_DIR$\Time.c</name>
             <outputs>
                 <tool>
@@ -163,12 +284,27 @@
                 <tool>
                     <name>BICOMP</name>
                     <file> 32</file>
+=======
+            <name>$PROJ_DIR$\RPS.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
+<<<<<<< HEAD
                     <file> 10 35</file>
+=======
+                    <file> 12 3 4</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </inputs>
         </file>
@@ -176,14 +312,28 @@
             <name>$PROJ_DIR$\Debug\Exe\Final Project.out</name>
             <outputs>
                 <tool>
+<<<<<<< HEAD
                     <name>ILINK</name>
                     <file> 26</file>
+=======
+                    <name>BICOMP</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </outputs>
             <inputs>
                 <tool>
+<<<<<<< HEAD
                     <name>ILINK</name>
                     <file> 25 41 34 29 42 23 13 16 11 22 14 18</file>
+=======
+                    <name>ICCARM</name>
+                    <file> 10 22</file>
+>>>>>>> refs/remotes/origin/master
                 </tool>
             </inputs>
         </file>

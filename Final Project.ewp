@@ -816,7 +816,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    <state>C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>

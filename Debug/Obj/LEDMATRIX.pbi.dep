@@ -1,5 +1,12 @@
 LEDMATRIX.pbi: \
+<<<<<<< HEAD
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)\LEDMATRIX.c \
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/LEDMATRIX.h \
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/tm4c123gh6pm.h \
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/Time.h
+=======
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED\LEDMATRIX.c \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/LEDMATRIX.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/tm4c123gh6pm.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/Time.h
+>>>>>>> refs/remotes/origin/master

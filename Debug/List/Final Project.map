@@ -1,31 +1,35 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.1.212/W32 for ARM                  24/Dec/2019  15:33:12
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  28/Dec/2019  22:40:46
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
-#        D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Exe\Final
-#        Project.out
+#        C:\Users\lenovo\Downloads\College stuff\Micro
+#        Controller\Project\LED\Debug\Exe\Final Project.out
 #    Map file     =
-#        D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\List\Final
-#        Project.map
+#        C:\Users\lenovo\Downloads\College stuff\Micro
+#        Controller\Project\LED\Debug\List\Final Project.map
 #    Command line =
-#        -f C:\Users\moham\AppData\Local\Temp\EW5380.tmp
-#        (D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\Animate.o
-#        D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\IO.o
-#        D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\LEDMATRIX.o
-#        D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\main.o
-#        D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\RPS.o
-#        D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj\Time.o
-#        --no_out_extension -o
-#        "D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Exe\Final
-#        Project.out" --redirect _Printf=_PrintfFullNoMb --redirect
-#        _Scanf=_ScanfFullNoMb --map
-#        "D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\List\Final
-#        Project.map" --config "C:\Program Files (x86)\IAR Systems\Embedded
-#        Workbench 8.3\arm\config\linker\TexasInstruments\TM4C123GH6.icf"
-#        --semihosting
-#        C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a
+#        -f C:\Users\lenovo\AppData\Local\Temp\EW341.tmp
+#        ("C:\Users\lenovo\Downloads\College stuff\Micro
+#        Controller\Project\LED\Debug\Obj\Animate.o"
+#        "C:\Users\lenovo\Downloads\College stuff\Micro
+#        Controller\Project\LED\Debug\Obj\IO.o"
+#        "C:\Users\lenovo\Downloads\College stuff\Micro
+#        Controller\Project\LED\Debug\Obj\LEDMATRIX.o"
+#        "C:\Users\lenovo\Downloads\College stuff\Micro
+#        Controller\Project\LED\Debug\Obj\main.o"
+#        "C:\Users\lenovo\Downloads\College stuff\Micro
+#        Controller\Project\LED\Debug\Obj\RPS.o"
+#        "C:\Users\lenovo\Downloads\College stuff\Micro
+#        Controller\Project\LED\Debug\Obj\Time.o" --no_out_extension -o
+#        "C:\Users\lenovo\Downloads\College stuff\Micro
+#        Controller\Project\LED\Debug\Exe\Final Project.out" --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
+#        "C:\Users\lenovo\Downloads\College stuff\Micro
+#        Controller\Project\LED\Debug\List\Final Project.map" --config "E:\IAR
+#        Systems\Embedded Workbench
+#        8.3\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
 #        --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -66,7 +70,7 @@ initialize by copy { rw };
   .intvec            ro code          0x0    0x40  vector_table_M.o [4]
                                    - 0x40    0x40
 
-"P1":                                       0xf25
+"P1":                                       0xf1b
   .text              ro code         0x40   0x28c  LEDMATRIX.o [1]
   .text              ro code        0x2cc   0x254  Animate.o [1]
   .text              ro code        0x520   0x1a4  RPS.o [1]
@@ -88,8 +92,8 @@ initialize by copy { rw };
   .text              ro code        0x9f0     0xc  cstartup_M.o [4]
   .rodata            const          0x9fc     0x0  zero_init3.o [4]
   .rodata            const          0x9fc     0x0  lz77_init_single.o [4]
-  Initializer bytes  const          0x9fc   0x569  <for P2-1>
-                                  - 0xf65   0xf25
+  Initializer bytes  const          0x9fc   0x55f  <for P2-1>
+                                  - 0xf5b   0xf1b
 
 "P2", part 1 of 3:                         0x3808
   P2-1                        0x2000'0000  0x3808  <Init block>
@@ -141,7 +145,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0xf65     0x3'ffff  0x3'f09b
+        0xf5b     0x3'ffff  0x3'f0a5
   0x2000'3894  0x2000'3897       0x4
   0x2000'4898  0x2000'7fff    0x3768
 
@@ -157,8 +161,8 @@ Zero (__iar_zero_init3)
           0x2000'3808    0x8b
 
 Copy/lz77 (__iar_lz77_init_single3)
-    1 source range, total size 0x569 (9% of destination):
-                0x9fc   0x569
+    1 source range, total size 0x55f (9% of destination):
+                0x9fc   0x55f
     1 destination range, total size 0x3808:
           0x2000'0000  0x3808
 
@@ -174,15 +178,15 @@ command line/config:
     ---------------------------------------------
     Total:
 
-D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj: [1]
-    Animate.o               596    1'334   13'824
+C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\Debug\Obj: [1]
+    Animate.o               596    1'325   13'824
     IO.o                     72
-    LEDMATRIX.o             652       50      512
+    LEDMATRIX.o             652       49      512
     RPS.o                   420                 7
     Time.o                  156
     main.o                   48
     ---------------------------------------------
-    Total:                1'944    1'384   14'343
+    Total:                1'944    1'374   14'343
 
 dl7M_tln.a: [2]
     exit.o                    4
@@ -215,7 +219,7 @@ shb_l.a: [5]
     Gaps                      4        2
     Linker created                    32    4'096
 -------------------------------------------------
-    Grand Total:          2'522    1'419   18'579
+    Grand Total:          2'522    1'409   18'579
 
 
 *******************************************************************************
@@ -315,14 +319,14 @@ winner                  0x2000'388c    0x4  Data  Gb  RPS.o [1]
 writeShape                    0x203   0x50  Code  Gb  LEDMATRIX.o [1]
 
 
-[1] = D:\books+files\ASU_BSc\Senior1\projects\MicroControllers\projects\LED-Matrix-Game\Debug\Obj
+[1] = C:\Users\lenovo\Downloads\College stuff\Micro Controller\Project\LED\Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
    2'522 bytes of readonly  code memory
-   1'419 bytes of readonly  data memory
+   1'409 bytes of readonly  data memory
   18'579 bytes of readwrite data memory
 
 Errors: none

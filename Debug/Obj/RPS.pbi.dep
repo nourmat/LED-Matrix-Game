@@ -1,5 +1,12 @@
 RPS.pbi: \
+<<<<<<< HEAD
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)\RPS.c \
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/RPS.h \
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/Animate.h \
   C:\Users\Nour\ E-Din\Desktop\Embedded\ projects\LED\ Matrix\ (Rock\ Papper\ Scisser)/IO.h
+=======
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED\RPS.c \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/RPS.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/Animate.h \
+  C:\Users\lenovo\Downloads\College\ stuff\Micro\ Controller\Project\LED/IO.h
+>>>>>>> refs/remotes/origin/master
