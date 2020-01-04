@@ -32,4 +32,4 @@ This is the main file of the project where it all starts. (contains the main log
 All H files contains definitions for connections to easily change port or pins, and contains functions definitions.
 
 #LED MATRIX Diagram 
-![led matrix 8*8]led-matrix-8x8.png
+![led matrix 8*8](led-matrix-8x8.png)
