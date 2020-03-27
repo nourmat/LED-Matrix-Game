@@ -2,6 +2,8 @@
 
 The Project mainly is a game using bunch of switches and LED Matrix to display the outcome of the game. The hardware consists of shift registers, bunch of switches  and Tiva C ARM Micro-controller. 
 
+This is a rock paper scissor game exist 6 switches, 3 for each player.
+Each player should choose which shape and then an animation with the selected chooice will animate and display who won.
 
 # Files
 
